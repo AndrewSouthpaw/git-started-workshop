@@ -11,3 +11,9 @@ $ git clone <url>
 ```
 $ git push origin
 ```
+
+## Pull down the latest changes
+
+```
+$ git pull origin --rebase
+```

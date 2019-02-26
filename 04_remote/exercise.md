@@ -4,3 +4,4 @@
 - [ ] Clone the repo
 - [ ] Add some commits
 - [ ] Push your changes
+- [ ] Pull the latest just to make sure nothing has changed
