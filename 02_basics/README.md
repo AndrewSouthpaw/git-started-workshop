@@ -76,3 +76,7 @@ $ git commit -m '<some message>'
 $ git add .
 $ git commit -m '<some message>'
 ```
+
+## Ignoring files
+
+Add to `.gitignore`.

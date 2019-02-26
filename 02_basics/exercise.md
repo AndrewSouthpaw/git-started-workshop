@@ -8,3 +8,4 @@
 - [ ] Delete the folder and the containing file and commit the change.
 - [ ] Recall what your question was for me, and be prepared to ask me that question!
 - [ ] Generate another five commits or so playing around with files and their changes.
+- [ ] Create a couple files and then ignore them in git.
