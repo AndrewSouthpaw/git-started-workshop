@@ -6,6 +6,7 @@
 $ git log
 $ git log --graph
 $ git log --graph --oneline
+$ git log --graph --oneline --all
 ```
 
 ## Viewing what changed in a commit
