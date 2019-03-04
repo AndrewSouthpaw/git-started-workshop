@@ -19,6 +19,12 @@ Grab the latest branch references from a remote
 $ git fetch <remote>
 ```
 
+List branches including ones on remotes
+
+```bash
+$ git branch -a
+```
+
 Grab the latest changes in a remote branch into yours
 
 ```bash

@@ -1,0 +1,12 @@
+# Exercise
+
+- [ ] Create a branch `feature-1`
+- [ ] Make a commit that changes a file
+- [ ] Go back to `master` and make a different change to the same file on that line and commit
+- [ ] Merge `feature-1` into `master`
+- [ ] Resolve the merge conflict and finish merging
+- [ ] Repeat the steps above using `rebase` instead of `merge`
+- [ ] Create a branch where you make changes to a file
+- [ ] In `master`, delete or rename that file
+- [ ] Try to merge in the branch
+- [ ] Decide what to do about the file and complete merge

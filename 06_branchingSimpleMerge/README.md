@@ -25,3 +25,15 @@ Delete a branch
 $ git branch -d <branch>
 ```
 
+Deleting a branch in prod
+
+```bash
+$ git push <remote> :<branch>
+```
+
+Clean out references that have been deleted in remote
+
+```bash
+$ git remote prune <remote>
+```
+
