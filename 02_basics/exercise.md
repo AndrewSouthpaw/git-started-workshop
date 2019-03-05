@@ -1,10 +1,13 @@
 - [ ] Initialize a git repo
 - [ ] Create a new file called "inquisition.md" and commit the file.
+- [ ] Amend your commit message to say something else.
 - [ ] Edit "inquisition.md" and write out a question (course-, professional-, or personal-related) you have for me
 - [ ] Check the changes you just wrote
 - [ ] Commit those changes
+- [ ] Write down another question and add it to the previous commit
 - [ ] Rename "inquisition.md" to be named "question.md" and commit the change.
 - [ ] Create a folder called "questions" and move "question.md" into that folder, and commit the change.
+- [ ] Create a couple empty commits.
 - [ ] Delete the folder and the containing file and commit the change.
 - [ ] Recall what your question was for me, and be prepared to ask me that question!
 - [ ] Generate another five commits or so playing around with files and their changes.

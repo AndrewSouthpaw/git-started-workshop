@@ -83,6 +83,19 @@ $ git add .
 $ git commit -m '<some message>'
 ```
 
+## Amending a previous commit
+
+```bash
+# after your changes are staged...
+$ git commit --amend -m '<some message>'
+```
+
+## Creating an empty commit
+
+```bash
+$ git commit --allow-empty -m '<some message>'
+```
+
 ## Ignoring files
 
 Add to `.gitignore`.
