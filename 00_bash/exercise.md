@@ -19,4 +19,8 @@
 - [ ] Create another file, `temp3.txt`, and write down some names of oranges
 - [ ] Rename `temp3.txt` to be `oranges.txt` and move it to the `fruits` directory in a single command
 - [ ] Back out to the desktop and try to delete the `exercise` folder without the `-r` command, notice what happens
+- [ ] Create a new file `song.txt` that has "The wheels on the bus go round and round..." in a single comand
+- [ ] Add a line that says "Round and round..." into `song.txt`
+- [ ] Add a line that says "Round and round..." into `song.txt`
+- [ ] Check the contents of `song.txt`
 - [ ] Correctly delete the `exercise` folder
