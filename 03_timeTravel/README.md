@@ -9,12 +9,6 @@ $ git log --graph --oneline
 $ git log --graph --oneline --all
 ```
 
-## Viewing what changed in a commit
-
-```bash
-$ git show <commit SHA>
-```
-
 ## Time traveling
 
 ```bash

@@ -32,7 +32,6 @@ $ git status
 $ git add foo.py
 $ git status
 $ git commit -m 'Added foo file.'
-
 ```
 
 ## Committing changes to existing files
@@ -49,6 +48,13 @@ $ git add foo.py
 $ git status
 $ git commit -m 'Added some comments to foo.'
 ```
+
+## Viewing what changed in a commit
+
+```bash
+$ git show <commit SHA>
+```
+
 
 ## Committing file rename
 
