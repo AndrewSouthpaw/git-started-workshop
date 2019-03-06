@@ -1,4 +1,4 @@
-# Cleaning Your Changes
+# Undoing Your Changes
 
 Wipe changes on a file
 
@@ -10,6 +10,12 @@ Clear all unstaged changes
 
 ```bash
 $ git checkout -- .
+```
+
+Unstaging your changes
+
+```bash
+$ git reset HEAD <file>
 ```
 
 Delete untracked files (typically new files)
