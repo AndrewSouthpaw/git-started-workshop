@@ -17,3 +17,9 @@ View staged changes
 ```bash
 $ git diff --staged
 ```
+
+View all uncommitted changes
+
+```bash
+$ git diff HEAD
+```
