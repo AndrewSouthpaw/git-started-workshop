@@ -9,7 +9,11 @@
 - [ ] Go back to `feature-2` and add a few commits
 - [ ] Merge `feature-2a` back into `feature-2` and delete `feature-2a`
 - [ ] Add a few commits to `master`
-- [ ] Merge `feature-2` into `master` and delete `feature-2`
+- [ ] Merge `feature-2` into `master`
+- [ ] Take a look at the log
+- [ ] Undo the merge
+- [ ] Take a look at the log
+- [ ] Redo the merge and delete `feature-2`
 
 **BEAST MODE**
 
