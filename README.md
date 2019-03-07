@@ -17,7 +17,7 @@ git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . &
 ```
 
 ```
-git config --global alias.yolo '!f() { echo asdf$1 > $1.txt && git add . && git commit -m \"$(curl -s whatthecommit.com/index.txt)\"; }; f'
+git config --global alias.yolo '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "$(curl -s whatthecommit.com/index.txt)"; }; f'
 ```
 
 Sample usage:
