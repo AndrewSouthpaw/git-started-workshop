@@ -7,15 +7,29 @@ Install git via `Homebrew`, a super-cool utility that helps manage tools for you
 [Install brew](https://brew.sh/) by pasting this code into your Terminal app:
 
 ```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 Then, install git:
 
 ```
-brew install git
+$ brew install git
+```
+
+Check that git is installed with:
+
+```
+$ git --version
 ```
 
 ## Windows
 
 Download the [GitHub Desktop](https://desktop.github.com/) app, which also installs `git` and a few other useful settings for you.
+
+Also download [Cygwin](https://cygwin.com/install.html) so you can run bash commands like the other cool Mac kids.
+
+Verify git is installed by typing this command:
+
+```
+git --version
+```
