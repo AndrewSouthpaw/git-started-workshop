@@ -13,7 +13,7 @@ Eventually you'll want to be able to quickly generate commits. When that time co
 Just copy each line individually and paste them into your shell.
 
 ```
-git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m \"Add $1.txt.\"; }; f'
+git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f'
 ```
 
 ```
