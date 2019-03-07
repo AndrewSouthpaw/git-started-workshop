@@ -8,3 +8,7 @@
 - [ ] Person B Add another file called "favoriteCity.md" and put in your favorite city
 - [ ] Person B commit and push changes
 - [ ] Person A pull changes
+- [ ] Both people practice creating PRs where you then merge in a multi-commit feature branch using a:
+    - [ ] Merge commit
+    - [ ] Rebase
+    - [ ] Squash & merge

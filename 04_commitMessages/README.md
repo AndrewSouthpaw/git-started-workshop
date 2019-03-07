@@ -10,3 +10,16 @@ Principles:
 1. No matter what, be consistent with team.
 
 Vim tutorial: [VIM Adventures](https://vim-adventures.com/)
+
+Vim commands
+
+```
+j    Down
+k    Up
+h    Left
+l    Right
+ESC  leave mode
+i    insert mode
+:wq  Save & quit
+:q!  Cancel & quit
+```
