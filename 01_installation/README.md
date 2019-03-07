@@ -26,7 +26,9 @@ $ git --version
 
 Download the [GitHub Desktop](https://desktop.github.com/) app, which also installs `git` and a few other useful settings for you.
 
-Also download [Cygwin](https://cygwin.com/install.html) so you can run bash commands like the other cool Mac kids.
+If you have Windows 10, follow [these directions](https://itsfoss.com/install-bash-on-windows/) to install bash on Windows. It works better for you, yay!
+
+For operating systems before Windows 10, download [Cygwin](https://cygwin.com/install.html) so you can run bash commands like the other cool Mac kids.
 
 Verify git is installed by typing this command:
 
