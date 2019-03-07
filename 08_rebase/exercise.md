@@ -5,6 +5,15 @@
 - [ ] Rebase the feature branch onto `master`
 - [ ] Merge the feature branch and delete it
 
+Dealing with merge conflicts
+
+- [ ] Create a feature branch, add a few commits (e.g. add a `a.txt`, then a `b.txt`, and so on)
+- [ ] Add some more commits to `master` that would conflict (make an `a.txt` with conflicting changes, and then a `d.txt` with conflicting changes)
+- [ ] Go back to feature branch and create a `temp` branch in case something goes awry, you won't lose your place
+- [ ] Rebase feature branch onto `master`
+- [ ] Deal with merge conflicts
+- [ ] Celebrate your git prowess
+
 **BEAST MODE**
 
 - [ ] Create something like this...

@@ -10,4 +10,6 @@
 - [ ] PR author delete their branch
 - [ ] Make a new PR on a branch, this time merge it w/ rebase
 - [ ] PR author delete their branch
+- [ ] Make a new PR on a branch, this time pull it down locally and merge w/ squash
+- [ ] PR author delete their branch
 - [ ] Do the same thing but with roles reversed, so you'll work on a different repo this time
