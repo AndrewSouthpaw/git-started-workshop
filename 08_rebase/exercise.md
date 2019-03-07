@@ -48,3 +48,6 @@ Ending goal:
 - [ ] If you were to merge `feature-1` in without a merge commit, what would it look like?
 - [ ] Try it out and see what's same/different about what you observed vs. expected
 
+**FINAL BOSS MODE**
+
+- [ ] Play through [this game on git branching](https://learngitbranching.js.org/) to truly test your mettle in git-fu.
