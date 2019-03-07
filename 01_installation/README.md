@@ -1,6 +1,10 @@
 # Installation
 
-## MacOS
+Install git, and then configure it.
+
+## Install
+
+### MacOS
 
 Install git via `Homebrew`, a super-cool utility that helps manage tools for your laptop.
 
@@ -22,7 +26,7 @@ Check that git is installed with:
 $ git --version
 ```
 
-## Windows
+### Windows
 
 Download the [GitHub Desktop](https://desktop.github.com/) app, which also installs `git` and a few other useful settings for you.
 
@@ -34,4 +38,23 @@ Verify git is installed by typing this command:
 
 ```
 git --version
+```
+
+### Linux
+
+Run
+
+```
+# apt-get install git
+```
+
+## Configure
+
+You'll need to tell git who you are, so it can attribute commits to you as the author. Generally you use your real name and email associated with GitHub, though you can actually put whatever you want.
+
+Paste these two lines into your bash shell, substituting the values as appropriate.
+
+```bash
+$ git config --global user.name "Andrew Smith"
+$ git config --global user.email "andrew@email.com"
 ```
