@@ -2,6 +2,10 @@
 
 A workshop to learn the beginner and intermediate features of git.
 
+## Zoom Meeting for Git Workshop
+
+https://zoom.us/s/987064072
+
 ## Tools for generating commits
 
 Eventually you'll want to be able to quickly generate commits. When that time comes, these tools can be handy.
