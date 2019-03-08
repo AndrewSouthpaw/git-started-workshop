@@ -2,6 +2,10 @@
 
 A workshop to learn the beginner and intermediate features of git.
 
+## Slides
+
+Download [here](https://www.dropbox.com/s/qgu5fvrbytqknf4/DevelopIntelligence%202019-03%20-%20Git.key?dl=0).
+
 ## Zoom Meeting for Git Workshop
 
 https://zoom.us/s/987064072
