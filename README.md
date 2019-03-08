@@ -29,3 +29,13 @@ $ git commitrand 3  # creates a file 3.txt and creates a commit
 $ git yolo foo  # similar, but uses an amusing commit generator that
                 # is vaguely NSFW (vulgarity), so probably just use at home
 ```
+
+## Better bash prompt
+
+Download `.bash_prompt` and move it to your `~` directory:
+
+```bash
+$ mv /wherever/you/downloaded/it/.bash_prompt ~/.bash_prompt
+```
+
+Open up a new bash shell and voilá. This is adapted from a [particularly famous dotfile](https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt), tweaked so you don't need to download other customizations upon which the original dotfile depends.
