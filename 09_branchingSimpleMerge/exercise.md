@@ -2,7 +2,6 @@
 
 - [ ] Create a new branch, `feature-1`
 - [ ] Add a few commits to the branch
-- [ ] Push your branch up to `origin`
 - [ ] Merge the branch into `master`
 - [ ] Delete `feature-1`
 - [ ] Create another branch, `feature-2`
