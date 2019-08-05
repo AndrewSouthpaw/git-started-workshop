@@ -1,4 +1,4 @@
-# Module 6: Branching (Simple Merge)
+# Branching (Simple Merge)
 
 List the branches on your local
 

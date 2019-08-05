@@ -1,4 +1,4 @@
-# Module 4: Remote Repository
+# Remote Repository
 
 ## Clone a repo
 

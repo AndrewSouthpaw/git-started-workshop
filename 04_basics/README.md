@@ -1,4 +1,4 @@
-# Module 2: Basics
+# Basics
 
 ## Starting a git repo
 

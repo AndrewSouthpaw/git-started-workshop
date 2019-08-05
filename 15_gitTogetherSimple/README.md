@@ -1,4 +1,4 @@
-# Module 5: Collaborating (Simple)
+# Collaborating (Simple)
 
 ## Clone a repo
 

@@ -1,4 +1,4 @@
-# Module 4: Exercise
+# Exercise
 
 - [ ] Create a new repo in GitHub
 - [ ] Clone the repo

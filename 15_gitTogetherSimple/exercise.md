@@ -1,4 +1,4 @@
-# Module 5: Exercise
+# Exercise
 
 - [ ] Find a pairing buddy
 - [ ] Person A create a new repo on GitHub and add Person B as a collaborator
