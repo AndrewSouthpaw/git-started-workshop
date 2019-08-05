@@ -8,3 +8,4 @@
 - [ ] Think about what you would expect to see when you run `git diff` now, and then run it. How was it same/different?
 - [ ] View the staged changes
 - [ ] View all your uncommitted changes together
+- [ ] Fill out [this form](https://forms.gle/zHWGNQ1dK1x9NRzN8)
