@@ -2,6 +2,8 @@
 
 Install git, and then configure it.
 
+**NB:** Remember: the `$` means "the stuff after this goes into the command prompt." Do not include the $ in the command.
+
 ## Install
 
 ### MacOS
@@ -20,25 +22,9 @@ Then, install git:
 $ brew install git
 ```
 
-Check that git is installed with:
-
-```
-$ git --version
-```
-
 ### Windows
 
-Download the [GitHub Desktop](https://desktop.github.com/) app, which also installs `git` and a few other useful settings for you.
-
-If you have Windows 10, follow [these directions](https://itsfoss.com/install-bash-on-windows/) to install bash on Windows. It works better for you, yay!
-
-For operating systems before Windows 10, download [Cygwin](https://cygwin.com/install.html) so you can run bash commands like the other cool Mac kids.
-
-Verify git is installed by typing this command:
-
-```
-git --version
-```
+Follow [these instructions](https://hackernoon.com/install-git-on-windows-9acf2a1944f0).
 
 ### Linux
 
@@ -46,6 +32,14 @@ Run
 
 ```
 # apt-get install git
+```
+
+## Verify Installation
+
+Verify git is installed by typing this command:
+
+```
+git --version
 ```
 
 ## Configure

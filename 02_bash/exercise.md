@@ -24,3 +24,4 @@
 - [ ] Add a line that says "Round and round..." into `song.txt`
 - [ ] Check the contents of `song.txt`
 - [ ] Correctly delete the `exercise` folder
+- [ ] Fill out [this form](https://forms.gle/AWQJQBgJ4mwPfWzV9)

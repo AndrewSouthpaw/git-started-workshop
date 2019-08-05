@@ -1,3 +1,5 @@
 # Exercise
 
-- [ ] Make sure you've configured git to store your name and email!
+- [ ] Install git
+- [ ] Configure your username and email in git
+- [ ] Fill out [this form](https://forms.gle/iQzLDFAXST6aiSck9)
