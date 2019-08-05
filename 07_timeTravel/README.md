@@ -22,12 +22,18 @@ $ git checkout <commit SHA>
 
 # e.g. 
 
+# get back to the latest on master
+$ git checkout master
+
 # move to the previous commit
 $ git checkout HEAD^
+
 # move to back two commits
 $ git checkout HEAD^^
+
 # ...three...
 $ git checkout HEAD^^^
+
 # or, more expressively
 $ git checkout HEAD~3
 ```

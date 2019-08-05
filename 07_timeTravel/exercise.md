@@ -1,6 +1,6 @@
 # Exercise
 
-- [ ] Show the diff on two different commits.
+- [ ] Show what was committed on two different commits.
 - [ ] Navigate to a specific commit somewhere in the middle of your timeline. View your files.
 - [ ] Move back a commit or two using the `HEAD^` notation.
 - [ ] Move back a few commits using the `HEAD~#` notation.
