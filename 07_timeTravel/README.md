@@ -30,19 +30,6 @@ $ git checkout HEAD^^^
 $ git checkout HEAD~3
 ```
 
-## Undoing a commit
-
-```bash
-# Rollback the previous commit but keep the changes
-$ git reset <commit to roll back to>
-
-# Rollback the previous commit and discard the changes
-$ git reset --hard <commit to roll back to>
-
-# Create a new commit that reverts the changes made by a commit
-$ git revert <commit to undo>
-```
-
 ## Searching history
 
 ```bash
