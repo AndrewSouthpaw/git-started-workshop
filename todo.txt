@@ -1,0 +1,1 @@
+- [ ] Move renaming/deleting section in lecture notes to somewhere meaningful

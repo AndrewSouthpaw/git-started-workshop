@@ -1,5 +1,11 @@
 # Module 3: Time Travel
 
+## Viewing what changed in a commit
+
+```bash
+$ git show <commit SHA>
+```
+
 ## View timeline
 
 ```bash
