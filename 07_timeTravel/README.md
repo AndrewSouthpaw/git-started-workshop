@@ -1,4 +1,4 @@
-# Module 3: Time Travel
+# Time Travel
 
 ## Viewing what changed in a commit
 
@@ -19,6 +19,8 @@ $ git log --graph --oneline --all
 
 ```bash
 $ git checkout <commit SHA>
+
+# e.g. 
 
 # move to the previous commit
 $ git checkout HEAD^

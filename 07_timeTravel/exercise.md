@@ -1,4 +1,4 @@
-# Module 3: Exercise
+# Exercise
 
 - [ ] Show the diff on two different commits.
 - [ ] Navigate to a specific commit somewhere in the middle of your timeline. View your files.
