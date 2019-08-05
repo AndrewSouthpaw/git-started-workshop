@@ -23,3 +23,11 @@ i    insert mode
 :wq  Save & quit
 :q!  Cancel & quit
 ```
+
+
+## Amending a previous commit
+
+```bash
+# after your changes are staged...
+$ git commit --amend -m '<some message>'
+```
