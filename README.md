@@ -2,6 +2,11 @@
 
 A workshop to learn the beginner and intermediate features of git.
 
+## Lunch Retro
+
+- [2019-08-05](https://forms.gle/HoJWCBuNQ4JNsavG6)
+- [2019-08-06](https://forms.gle/24nedd9QeoDX5DAi8)
+
 ## Slides
 
 Download [here](https://www.dropbox.com/s/zj6k2o3m970gwot/DevelopIntelligence%202019-03%20-%20Git.pdf?dl=0).
