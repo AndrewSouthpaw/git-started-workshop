@@ -1,5 +1,6 @@
-# Module X: Branching (Simple Merge)
+# Exercise
 
+- [ ] Add the `git rand` command from `README.md` into your bash profile to make your life easier...
 - [ ] Create a new branch, `feature-1`
 - [ ] Add a few commits to the branch
 - [ ] Merge the branch into `master`
@@ -8,10 +9,8 @@
 - [ ] Add a few commits to the branch
 - [ ] Create another branch off this current one, `feature-2a`
 - [ ] Add a few more commits there
-- [ ] Push your branch up to `origin`
 - [ ] Merge `feature-2a` into `feature-2` 
 - [ ] Delete `feature-2a`
-- [ ] Push your branch up to `origin`
 - [ ] Merge `feature-2` into `master`
 - [ ] Delete `feature-2`
-- [ ] Clean up your remote branches
+- [ ] Fill out [this form](https://forms.gle/7RHakDDA62taqhpB7)

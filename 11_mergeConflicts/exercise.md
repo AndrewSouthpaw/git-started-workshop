@@ -10,3 +10,4 @@
 - [ ] In `master`, delete or rename that file
 - [ ] Try to merge in the branch
 - [ ] Decide what to do about the file and complete merge
+- [ ] Fill out [this form](https://forms.gle/RcwzM7upLMwf8kAw7)

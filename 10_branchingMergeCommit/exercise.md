@@ -1,4 +1,4 @@
-# Module X: Branching (Merge Commit)
+# Exercise
 
 - [ ] Create a branch `feature-1` and add a few commits
 - [ ] Add a few commits to `master`
@@ -14,6 +14,7 @@
 - [ ] Undo the merge
 - [ ] Take a look at the log
 - [ ] Redo the merge and delete `feature-2`
+- [ ] Fill out [this form](https://forms.gle/vgsi3byzoXfgKcn8A)
 
 **BEAST MODE**
 
@@ -29,7 +30,7 @@ Now, you realize that master has some changes that you want to use in your `feat
 
 - [ ] ???
 
-Time continues to move on...
+Simulate that time moves on and more work is done on `master` and `feature-1`
 
 - [ ] Add a few commits to `master`
 - [ ] Add a few commits to `feature-1`

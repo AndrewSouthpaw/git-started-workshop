@@ -4,7 +4,6 @@ List the branches on your local
 
 ```bash
 $ git branch
-$ git branch -a # lists branches including ones on remote repo
 ```
 
 Create a new branch
@@ -17,6 +16,9 @@ Merge a branch into the current one
 
 ```bash
 $ git merge <branch>
+
+# e.g. if you were on branch `master`
+$ git merge feature1  # merges feature1 INTO master
 ```
 
 Delete a branch
@@ -24,16 +26,3 @@ Delete a branch
 ```bash
 $ git branch -d <branch>
 ```
-
-Deleting a branch in prod
-
-```bash
-$ git push <remote> :<branch>
-```
-
-Clean out references that have been deleted in remote
-
-```bash
-$ git remote prune <remote>
-```
-

@@ -1,4 +1,4 @@
-# Module X: Branching (Merge Commit)
+# Branching (Merge Commit)
 
 View branching structure in git log
 
