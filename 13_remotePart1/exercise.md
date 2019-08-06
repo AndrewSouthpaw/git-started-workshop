@@ -11,4 +11,7 @@
 - [ ] Go back to `clone1`
 - [ ] Update your ref to `master` in `origin` but don't pull changes
 - [ ] Look at your log and see how `master` and `origin/master` differ
-- [ ] Rebase your `master` against the updated `origin/master`
+- [ ] Pull `origin/master` into your `master`
+- [ ] Add more commits to `clone1` and push them to `origin`
+- [ ] Go to `clone2`, this time fetch the latest `origin/master` and merge it into your `master`
+- [ ] Fill out [this form](https://forms.gle/JU7chMhzfmV1SFQz6)
