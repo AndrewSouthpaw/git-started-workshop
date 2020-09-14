@@ -13,11 +13,6 @@ $ cd ~
 # list files where you are
 $ ls
 
-# look at the contents of a file; j/k to move down/up, q to leave
-$ less <file>
-
-# create new file
-$ touch <file>
 
 # delete a file (CAREFUL, no undo!)
 $ rm <file>
@@ -30,6 +25,16 @@ $ mv <old> <new>
 
 # make directory (aka folder)
 $ mkdir <name>
+```
+
+Other fun bash commands for the curious (we won't be practicing them today):
+
+```bash
+# look at the contents of a file; j/k to move down/up, q to leave
+$ less <file>
+
+# create new file
+$ touch <file>
 
 # open the current directory in your Finder
 $ open .
@@ -42,5 +47,4 @@ $ echo 'some stuff' > newFile.txt
 
 # puts 'more stuff' on a new line at end of current contents
 $ echo 'more stuff' >> newFile.txt
-
 ```

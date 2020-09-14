@@ -2,7 +2,7 @@
 
 ```bash
 $ git status
-$ git add .
+$ git add ...
 $ git commit -m 'some commit message'
 ```
 
