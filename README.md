@@ -22,7 +22,7 @@ Eventually you'll want to be able to quickly generate commits. When that time co
 Just copy each line individually and paste them into your shell.
 
 ```
-git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f'
+$ git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f'
 ```
 
 Sample usage:
@@ -30,6 +30,32 @@ Sample usage:
 ```bash
 $ git commitrand 3  # creates a file 3.txt and creates a commit
                     # with commit message "Add 3.txt."
+```
+
+## Better git history
+
+This will display a clean, visually friendly git log, showing all the branches. Copy and paste this command into your shell.
+
+```bash
+$ git config --global alias.l 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
+```
+
+Then use it with:
+
+```bash
+$ git l
+```
+
+And this is an expanded form, showing dates and author name. Copy and paste...
+
+```bash
+$ git config --global alias.hist "log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate"
+```
+
+And then use:
+
+```bash
+$ git hist
 ```
 
 ## Better bash prompt
