@@ -2,14 +2,14 @@
 
 A workshop to learn the beginner and intermediate features of git.
 
-## Lunch Retro
+## Day Retros
 
-- [2019-08-05](https://forms.gle/HoJWCBuNQ4JNsavG6)
-- [2019-08-06](https://forms.gle/24nedd9QeoDX5DAi8)
+- [2020-09-15](https://docs.google.com/forms/d/1Dox1vtgHFZTlmNjAR9BPoOlqIDaet-H_01YfOJR7ssE/edit?usp=sharing)
+- [2020-09-16](https://docs.google.com/forms/d/19U54flDrihTWmYt6Vu0NEGaJazLAHw4gx77pfq1Ih0A/edit?usp=sharing)
 
 ## Course Evaluation
 
-- [2019-08-05 Course](https://www.surveymonkey.com/r/2GY6TT2)
+- [2020-09 Salesforce Course](https://www.surveymonkey.com/r/LLLR5MJ)
 
 ## Slides
 

@@ -24,14 +24,20 @@ $ brew install git
 
 ### Windows
 
-Follow [these instructions](https://hackernoon.com/install-git-on-windows-9acf2a1944f0).
+Depending on your Windows OS, you may already have access to Bash. If you have an app like "Git BASH", or have the Windows Subsystem for Linux (WSL), you probably don't need to follow these instructions. Just go to your command line and verify your install by typing `$ git --version`. 
+
+If you use Chocolatey, follow [instructions here](https://chocolatey.org/packages/git).
+
+If you don't, install the [GitHub Desktop client](https://desktop.github.com/) which also installs a command-line version of Git.
+
+In case that doesn't work, try the [Git for Windows](https://git-scm.com/download/win) project.
 
 ### Linux
 
 Run
 
 ```
-# apt-get install git
+$ apt-get install git
 ```
 
 ## Verify Installation
@@ -39,7 +45,7 @@ Run
 Verify git is installed by typing this command:
 
 ```
-git --version
+$ git --version
 ```
 
 ## Configure
