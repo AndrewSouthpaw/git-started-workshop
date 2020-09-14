@@ -7,6 +7,7 @@ $ git commit -m 'some commit message'
 ```
 
 - [ ] Create a file "foo.md" and commit the change.
+- [ ] Add a couple new lines to the file and commit the change.
 - [ ] Rename "foo.md" to be named "bar.md" and commit the change.
 - [ ] Delete "bar.md" and commit the change
 - [ ] Create a folder called "questions" and add a file "question1.md" into that folder, and commit the change.
