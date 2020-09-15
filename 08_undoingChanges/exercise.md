@@ -8,7 +8,7 @@
 - [ ] See what would happen if you cleaned your git
 - [ ] Actually blow away all the untracked files
 - [ ] Add several changes and stage them
-- [ ] Try to wipe them away using `git checkout -- .`, notice what happens
+- [ ] Try to wipe them away using `git restore .`, notice what happens
 - [ ] Unstage your changes
 - [ ] Wipe away the changes
 - [ ] Create some changes at commit them. Rollback changes but don't discard them.
