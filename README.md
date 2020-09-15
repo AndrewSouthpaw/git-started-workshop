@@ -13,7 +13,7 @@ A workshop to learn the beginner and intermediate features of git.
 
 ## Slides
 
-Download [here](https://drive.google.com/open?id=1AU-VP7QeNvJ0v5hDpyzUez1oN4XyorV7).
+Download [here](https://drive.google.com/file/d/19R8kR1efZl_1Ms3E2PfmMZEiPBWomMZK/view?usp=sharing).
 
 ## Tools for generating commits
 
