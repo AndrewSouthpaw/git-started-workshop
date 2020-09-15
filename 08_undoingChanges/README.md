@@ -3,13 +3,13 @@
 Wipe changes on a file
 
 ```bash
-$ git checkout -- <file>
+$ git restore <file>
 ```
 
 Clear all unstaged changes
 
 ```bash
-$ git checkout -- .
+$ git restore .
 ```
 
 Unstaging your changes
