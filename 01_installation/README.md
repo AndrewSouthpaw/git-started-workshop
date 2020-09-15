@@ -22,6 +22,12 @@ Then, install git:
 $ brew install git
 ```
 
+If you already installed git with homebrew and want to update it, run:
+
+```
+$ brew upgrade git
+```
+
 ### Windows
 
 Depending on your Windows OS, you may already have access to Bash. If you have an app like "Git BASH", or have the Windows Subsystem for Linux (WSL), you probably don't need to follow these instructions. Just go to your command line and verify your install by typing `$ git --version`. 
