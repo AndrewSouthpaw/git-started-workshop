@@ -86,3 +86,11 @@ Then run this command in your shell:
 ```bash
 echo 'export EDITOR="code -w"' >> ~/.bash_profile
 ```
+
+Then open a NEW shell and check that it's been set correctly:
+
+```bash
+$ echo $EDITOR
+
+should print out: code -w
+```
