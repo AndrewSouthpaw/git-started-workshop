@@ -5,6 +5,9 @@
 - [ ] Add some commits
 - [ ] Push your changes
 - [ ] Pull the latest just to make sure nothing has changed
+
+^---- just do this part ----^
+
 - [ ] Back out of your project and clone your repo *again* with a different name (we'll refer to hit here as `clone2`)
 - [ ] Make some new commits in `clone2`
 - [ ] Push your changes to `origin`
