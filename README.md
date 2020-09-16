@@ -84,5 +84,5 @@ Inside VS Code, open the Command Palette (CMD + Shift + P or Ctrl + Shift + P) a
 Then run this command in your shell:
 
 ```bash
-echo "export EDITOR="code -w" >> ~/.bash_profile
+echo 'export EDITOR="code -w"' >> ~/.bash_profile
 ```
