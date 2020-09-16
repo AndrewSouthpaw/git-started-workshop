@@ -12,4 +12,5 @@
     - [ ] Merge commit
     - [ ] Rebase
     - [ ] Squash & merge
+- [ ] Practice using `git pull` vs. `git pull --rebase` and see how local changes are handled
 - [ ] Fill out [this form](https://forms.gle/L5YgW79d2Ym9bxQQ6)
