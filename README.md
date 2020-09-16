@@ -72,3 +72,17 @@ $ cp .bash_prompt ~/.bash_prompt
 ```
 
 Open up a new bash shell and voilá. This is adapted from a [particularly famous dotfile](https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt), tweaked so you don't need to download other customizations upon which the original dotfile depends.
+
+## Set VS Code as default editor
+
+VIM will usually pop open during various git commands and it can get confusing.
+
+Instead you can use VS Code as the default editor.
+
+Inside VS Code, open the Command Palette (CMD + Shift + P or Ctrl + Shift + P) and search for "Shell Command: Install 'code' command in PATH", follow that step.
+
+Then run this command in your shell:
+
+```bash
+echo "export EDITOR="code -w" >> ~/.bash_profile
+```
