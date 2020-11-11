@@ -9,9 +9,8 @@ $ git add .
 $ git commit -m 'some commit message'
 ```
 
-- [ ] Create a new file called "question.txt" and commit the change.
-- [ ] Edit "question.txt" and write out a question (course-, professional-, or personal-related) you have for me and commit the change 
-  - (hint: you can use `echo "whatever" >> file.txt` to add text to a file)
+- [ ] Create a new file called "question.txt", write out a question (course-, professional-, or personal-related) you have for me, and commit the change.
+- [ ] Edit "question.txt" and add another question, and commit the change 
 - [ ] Amend your commit message to say something else
 - [ ] Add another question to "question.txt" and 
 - [ ] Recall what your question was for me, and be prepared to ask me that question!
