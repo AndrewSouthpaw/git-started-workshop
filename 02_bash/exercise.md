@@ -1,6 +1,8 @@
 # Exercise
 
-- [ ] Download iTerm for Mac, or open Git BASH for Windows
+- [ ] Open a bash shell
+   - For Mac: open the Terminal app ([Applications] > [Utilities] > [Terminal]) (or download [iTerm](https://www.iterm2.com/))
+   - For Windows: open Git BASH application
 - [ ] Navigate to your home directory (`~`, or `/Users/username/` for Mac and `C:\Users\username` for Windows)
 - [ ] Print your working directory to see where you are
 - [ ] Navigate to your desktop (`/Users/username/Desktop` for Mac or `C:\Users\username\Desktop` for Windows)
@@ -10,7 +12,4 @@
 - [ ] Create a new folder called `exercise`
 - [ ] Navigate into the `exercise` folder
 - [ ] Use a text editor to write some text into a new file called `temp1.txt`
-- [ ] Rename `temp1.txt` to be called `temp2.txt` using bash
-- [ ] Delete `temp2.txt` using bash
-- [ ] Go up a directory and delete the `exercise` folder
 - [ ] Fill out [this form](https://forms.gle/AWQJQBgJ4mwPfWzV9)

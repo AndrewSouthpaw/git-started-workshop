@@ -13,7 +13,13 @@ $ cd ~
 # list files where you are
 $ ls
 
+# make directory (aka folder)
+$ mkdir <name>
+```
 
+Other fun bash commands for the curious (we won't be practicing them today):
+
+```bash
 # delete a file (CAREFUL, no undo!)
 $ rm <file>
 
@@ -23,13 +29,6 @@ $ rm -r <directory>
 # rename/move a file
 $ mv <old> <new>
 
-# make directory (aka folder)
-$ mkdir <name>
-```
-
-Other fun bash commands for the curious (we won't be practicing them today):
-
-```bash
 # look at the contents of a file; j/k to move down/up, q to leave
 $ less <file>
 
