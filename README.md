@@ -1,5 +1,23 @@
 # git-started-workshop
 
+A workshop learning the basics of git.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [Day Retros](#day-retros)
+- [Course Evaluation](#course-evaluation)
+- [Slides](#slides)
+- [Git Visualization](#git-visualization)
+- [Setup](#setup)
+  - [Set VS Code as default editor](#set-vs-code-as-default-editor)
+  - [Tools for generating commits](#tools-for-generating-commits)
+  - [Better git history](#better-git-history)
+  - [Better bash prompt](#better-bash-prompt)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 A workshop to learn the beginner and intermediate features of git.
 
 ## Day Retros
@@ -14,7 +32,13 @@ A workshop to learn the beginner and intermediate features of git.
 
 View/download [here](https://drive.google.com/file/d/1Tfogzs9FqPhGePpTiP6XU1wCWDmvDe9Q/view?usp=sharing).
 
-## Set VS Code as default editor
+## Git Visualization
+
+We'll sometimes use [Git School - Visualizing Git](http://git-school.github.io/visualizing-git/) as a tool for visualizing git operations.
+
+## Setup
+
+### Set VS Code as default editor
 
 VIM will usually pop open during various git commands and it can get confusing.
 
@@ -36,7 +60,7 @@ $ echo $EDITOR
 should print out: code -w
 ```
 
-## Tools for generating commits
+### Tools for generating commits
 
 Eventually you'll want to be able to quickly generate commits. When that time comes, these tools can be handy.
 
@@ -53,7 +77,7 @@ $ git commitrand 3  # creates a file 3.txt and creates a commit
                     # with commit message "Add 3.txt."
 ```
 
-## Better git history
+### Better git history
 
 This will display a clean, visually friendly git log, showing all the branches. Copy and paste this command into your shell.
 
@@ -79,7 +103,7 @@ And then use:
 $ git hist
 ```
 
-## Better bash prompt
+### Better bash prompt
 
 Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt, so make a copy of it):
 
