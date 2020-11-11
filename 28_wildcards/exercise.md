@@ -24,4 +24,3 @@ bar.png
 - [ ] List all the files that begin with `foo` in all the folders
 - [ ] Make a `baz1.txt`, `baz2.txt`, `baz3.txt` ... and so on up to `baz10.txt` in one quick easy command
 - [ ] Make a `qux` file that has `.jpg`, `.png`, and `.txt` extensions with a command where you only type `qux` once
-- [ ] Fill out [this form](https://forms.gle/JEBW7wNEA42BVJwt8)

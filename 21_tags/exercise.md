@@ -7,4 +7,3 @@
 - [ ] Push all your tags
 - [ ] Delete a couple tags from local
 - [ ] Delete those same tags from remote
-- [ ] Fill out [this form](https://forms.gle/d5CgDWgiVFoof5ZbA)

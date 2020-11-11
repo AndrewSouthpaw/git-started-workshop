@@ -12,4 +12,3 @@
 - [ ] Create a new folder called `exercise`
 - [ ] Navigate into the `exercise` folder
 - [ ] Use a text editor to write some text into a new file called `temp1.txt`
-- [ ] Fill out [this form](https://forms.gle/AWQJQBgJ4mwPfWzV9)

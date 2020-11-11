@@ -23,4 +23,3 @@ Link to meeting notes: www.foo.com/foo-meeting-notes
 ```
 
 - [ ] Bookmark [VIM Adventures](http://vim-adventures.com) to play through on a lunch break some time
-- [ ] Fill out [this form](https://forms.gle/haNbc7fq2iZz6Kw58)

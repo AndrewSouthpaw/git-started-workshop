@@ -15,4 +15,3 @@
 - [ ] Rebase your feature branch off these new commits
 - [ ] Create a PR and get it merged!
 - [ ] Switch roles and do it on the other person's repo
-- [ ] Fill out [this form](https://forms.gle/ykxYhhQNGKBNpE3X9)

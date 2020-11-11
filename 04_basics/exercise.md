@@ -15,4 +15,3 @@ $ git commit -m 'some commit message'
 - [ ] Amend your commit message to say something else
 - [ ] Add another question to "question.txt" and 
 - [ ] Recall what your question was for me, and be prepared to ask me that question!
-- [ ] Fill out [this form](https://forms.gle/6poEPEye37k8MtTeA)

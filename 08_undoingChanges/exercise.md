@@ -16,4 +16,3 @@
 - [ ] Rollback changes and discard them this time.
 - [ ] Mourn the loss of those changes. Think carefully about using the previous command.
 - [ ] Make a commit that undoes the changes in a previous commit.
-- [ ] Fill out [this form](https://forms.gle/4mVwDtJVHkVFVPU97)

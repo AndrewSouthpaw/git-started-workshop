@@ -14,7 +14,6 @@
 - [ ] Undo the merge
 - [ ] Take a look at the log
 - [ ] Redo the merge and delete `feature-2`
-- [ ] Fill out [this form](https://forms.gle/vgsi3byzoXfgKcn8A)
 
 **BEAST MODE**
 

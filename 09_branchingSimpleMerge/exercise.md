@@ -13,4 +13,3 @@
 - [ ] Delete `feature-2a`
 - [ ] Merge `feature-2` into `master`
 - [ ] Delete `feature-2`
-- [ ] Fill out [this form](https://forms.gle/7RHakDDA62taqhpB7)

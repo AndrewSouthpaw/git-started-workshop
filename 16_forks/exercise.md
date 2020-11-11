@@ -13,4 +13,3 @@
 - [ ] Make a new PR on a branch, this time pull it down locally and merge w/ squash
 - [ ] PR author delete their branch
 - [ ] Do the same thing but with roles reversed, so you'll work on a different repo this time
-- [ ] Fill out [this form](https://forms.gle/DPZjR2Td6unfMRBY9)

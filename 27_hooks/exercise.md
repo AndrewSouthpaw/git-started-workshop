@@ -8,4 +8,3 @@ $ touch run_tests.sh; echo 'Running tests...' > run_tests.sh; echo 'Tests passed
 ```
 
 - [ ] Set up git to run the `run_tests.sh` script whenever you push a branch
-- [ ] Fill out [this form](https://forms.gle/ajsWfuQKsauQnGvC8)
