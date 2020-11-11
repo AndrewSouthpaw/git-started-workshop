@@ -4,16 +4,15 @@ A workshop to learn the beginner and intermediate features of git.
 
 ## Day Retros
 
-- [2020-09-15](https://docs.google.com/forms/d/1Dox1vtgHFZTlmNjAR9BPoOlqIDaet-H_01YfOJR7ssE/edit?usp=sharing)
-- [2020-09-16](https://docs.google.com/forms/d/19U54flDrihTWmYt6Vu0NEGaJazLAHw4gx77pfq1Ih0A/edit?usp=sharing)
+- [Wednesday 2020-11-11](https://forms.gle/AcmTHGertF8yWFTz7)
+- [Thursday 2020-11-12](https://forms.gle/8dzMCcqZEUXRys4Z8)
 
 ## Course Evaluation
 
-- [2020-09 Salesforce Course](https://www.surveymonkey.com/r/LLLR5MJ)
 
 ## Slides
 
-Download [here](https://drive.google.com/file/d/19R8kR1efZl_1Ms3E2PfmMZEiPBWomMZK/view?usp=sharing).
+View/download [here](https://drive.google.com/file/d/1Tfogzs9FqPhGePpTiP6XU1wCWDmvDe9Q/view?usp=sharing).
 
 ## Tools for generating commits
 
@@ -60,15 +59,15 @@ $ git hist
 
 ## Better bash prompt
 
-Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt):
+Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt, so make a copy of it):
 
 ```bash
 $ cd ~
-$ mv .bash_prompt .bash_prompt.bak # if you have a current bash_prompt you want to
-                                   # save, typically you don't if you're new to bash
+$ mv .bash_prompt .bash_prompt.bak # do this if you have a current bash_prompt you want to
+                                   # save; typically you don't need to if you're new to bash
 $ git clone https://github.com/AndrewSouthpaw/git-started-workshop.git
 $ cd git-started-workshop
-$ cp .bash_prompt ~/.bash_prompt
+$ cp .bash_prompt ~
 ```
 
 Open up a new bash shell and voilá. This is adapted from a [particularly famous dotfile](https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt), tweaked so you don't need to download other customizations upon which the original dotfile depends.
