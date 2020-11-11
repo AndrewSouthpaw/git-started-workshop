@@ -8,6 +8,12 @@ $ git show <commit SHA>
 
 ## View timeline
 
+If you installed the alias:
+
+```bash
+$ git l
+```
+
 ```bash
 $ git log
 $ git log --graph

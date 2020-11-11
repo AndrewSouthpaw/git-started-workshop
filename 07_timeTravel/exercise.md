@@ -6,3 +6,8 @@
 - [ ] Move back a few commits using the `HEAD~#` notation.
 - [ ] Go to the latest commit.
 - [ ] Search for commit messages that contained a particular phrase
+
+**CHALLENGE MODE**
+
+- [ ] When you navigate into the past, what is that state called?
+- [ ] If you navigate to the current `master` commit by using the SHA, e.g. `git checkout abc1234`, and then you make a commit there, what happens? Why?

@@ -1,9 +1,8 @@
 # Exercise
 
-- [ ] Make changes to several files
-- [ ] Clear the changes of a specific file
-- [ ] Clear changes to a pattern of files (e.g. `foo*` would wipe `foo.txt` and `fooBar.js`)
-- [ ] Flip the table and blow all your changes away
+Undoing changes in your "working directory"
+
+- [ ] Make changes to several tracked files in git, and then clear the changes
 - [ ] Make a bunch of new files
 - [ ] See what would happen if you cleaned your git
 - [ ] Actually blow away all the untracked files
@@ -11,8 +10,12 @@
 - [ ] Try to wipe them away using `git restore .`, notice what happens
 - [ ] Unstage your changes
 - [ ] Wipe away the changes
-- [ ] Create some changes at commit them. Rollback changes but don't discard them.
+
+Undoing commits
+
+- [ ] Create some changes and commit them. Rollback the commit but don't discard the changes.
 - [ ] Commit these changes again with a different commit message.
-- [ ] Rollback changes and discard them this time.
-- [ ] Mourn the loss of those changes. Think carefully about using the previous command.
-- [ ] Make a commit that undoes the changes in a previous commit.
+- [ ] Rollback the commit again and discard the changes this time.
+- [ ] Mourn the loss of those changes. Think carefully about using the previous command, because it's hard to get them back (though [not impossible](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog)!)
+- [ ] Make some new changes and create a commit.
+- [ ] Make a *new* commit that undoes the changes in a previous commit.
