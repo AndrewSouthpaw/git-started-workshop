@@ -1,6 +1,7 @@
 # Exercise
 
-- [ ] Add the `git rand` command from `README.md` into your bash profile to make your life easier...
+Remember, you can use `git commitrand ...` alias from the `README.md` to generate commits more easily.
+
 - [ ] Create a new branch, `feature-1`
 - [ ] Add a few commits to the branch
 - [ ] Merge the branch into `master`
