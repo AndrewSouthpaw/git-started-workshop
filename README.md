@@ -70,6 +70,8 @@ Just copy each line individually and paste them into your shell.
 $ git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f'
 ```
 
+**There is no output in return.**
+
 Sample usage:
 
 ```bash
@@ -85,6 +87,8 @@ This will display a clean, visually friendly git log, showing all the branches. 
 $ git config --global alias.l 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
 ```
 
+**There is no output in return.**
+
 Then use it with:
 
 ```bash
@@ -96,6 +100,8 @@ And this is an expanded form, showing dates and author name. Copy and paste...
 ```bash
 $ git config --global alias.hist "log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate"
 ```
+
+**There is no output in return.**
 
 And then use:
 

@@ -18,3 +18,10 @@ $ git add <file>
 ```
 
 to mark it as resolved and you're ready to move on.
+
+To favor "our" (current) changes or "their" (incoming) across *all* merge conflicts:
+
+```
+git merge --strategy-option ours feature
+git merge --strategy-option theirs feature
+```
