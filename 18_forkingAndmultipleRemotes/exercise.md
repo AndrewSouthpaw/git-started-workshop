@@ -1,11 +1,11 @@
 # Exercise
 
-- [ ] Fork the [github-workshop-demo](https://github.com/AndrewSouthpaw/github-demo-project) respository
+- [ ] Fork the [github-workshop-demo](https://github.com/AndrewSouthpaw/github-demo-project) repository
 - [ ] Clone your fork
 - [ ] Add the original repo as a remote and call it `upstream`
 - [ ] Create a new branch `feature-1` and add a few commits
 - [ ] Push up your branch to `origin`
-- [ ] Try to push up your branch to `upstream` and see what happens
+- [ ] Try to push up your branch to `upstream` and see what happens (it won't let you; why?)
 - [ ] Wait for the instructor to add a few commits to `master` on the upstream repo
 - [ ] Fetch their latest refs (don't merge yet!) and then look at the history
 - [ ] Notice how `origin/master` and `upstream/master` differ
