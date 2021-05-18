@@ -93,13 +93,13 @@ $ git --version
 
 # Configure Git
 
-You'll need to tell git who you are, so it can attribute commits to you as the author. Generally you use your real name and email associated with GitHub, though you can actually put whatever you want.
+You'll need to tell git who you are, so it can attribute commits to you as the author. **Generally you use your real name and email associated with GitHub**, though you can actually put whatever you want.
 
 Paste these two lines into your bash shell, substituting the values as appropriate.
 
 ```bash
-$ git config --global user.name "Andrew Smith"
-$ git config --global user.email "andrew@email.com"
+$ git config --global user.name "Your Name"
+$ git config --global user.email "your@email.com"
 ```
 
 # Add useful git aliases
@@ -111,4 +111,4 @@ Follow instructions to add the following aliases:
 
 # Install Fork
 
-We will work with [Fork](https://git-fork.com/), the best git GUI app on the market.
+We will work with [Fork](https://git-fork.com/), the best git GUI app on the market. There are other free options, but they're not as good and less effective for learning purposes.

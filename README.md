@@ -22,11 +22,11 @@ A workshop to learn the beginner and intermediate features of git.
 
 ## Day Retros
 
-- [Wednesday 2020-11-11](https://forms.gle/AcmTHGertF8yWFTz7)
-- [Thursday 2020-11-12](https://forms.gle/8dzMCcqZEUXRys4Z8)
+TBD
 
 ## Course Evaluation
 
+TBD
 
 ## Slides
 
@@ -45,6 +45,30 @@ VIM will usually pop open during various git commands and it can get confusing.
 Instead you can use [Visual Studio Code](https://code.visualstudio.com/) as the default editor.
 
 Inside VS Code, open the Command Palette (CMD + Shift + P or Ctrl + Shift + P) and search for "Shell Command: Install 'code' command in PATH", follow that step.
+
+Then next command you should run depending on which shell you run.
+
+**If your terminal prompt starts with a %**
+
+It might look something [like this](https://i.stack.imgur.com/bUR9P.png).
+
+Then run this command in your shell:
+
+```bash
+% echo 'export EDITOR="code -w"' >> ~/.zsh_profile
+```
+
+Then open a NEW shell and check that it's been set correctly:
+
+```bash
+% echo $EDITOR
+
+should print out: code -w
+```
+
+**If your terminal prompt starts with a $**
+
+It might look something [like this](https://miro.medium.com/max/1960/0*jdx5-Ww6NH3ozn0Z.png).
 
 Then run this command in your shell:
 

@@ -21,32 +21,17 @@ $ git diff
 ## Committing new files
 
 ```bash
+# make some new files, and then...
 $ git add <yourFile>
 $ git commit -m '<some message>'
-
-# e.g.
-
-$ touch foo.py
-$ echo '# This is my new Python file' > foo.py
-$ git status
-$ git add foo.py
-$ git status
-$ git commit -m 'Added foo file.'
 ```
 
 ## Committing changes to existing files
 
 ```bash
+# make some edits, and then...
 $ git add <yourFile>
 $ git commit -m '<some message>'
-
-# e.g.
-
-$ echo '# Here are some more comments' >> foo.py
-$ git status
-$ git add foo.py
-$ git status
-$ git commit -m 'Added some comments to foo.'
 ```
 
 ## Committing everything at once
