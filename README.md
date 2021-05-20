@@ -107,6 +107,15 @@ $ git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add .
 
 **There is no output in return.**
 
+Verify it's set up correctly:
+
+```bash
+$ git config --global alias.commitrand
+
+# you should see:
+# !f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f
+```
+
 Sample usage:
 
 ```bash
@@ -124,6 +133,15 @@ $ git config --global alias.l 'log --graph --decorate --pretty=oneline --abbrev-
 
 **There is no output in return.**
 
+Verify it's set up correctly:
+
+```bash
+$ git config --global alias.l
+
+# you should see:
+# log --graph --decorate --pretty=oneline --abbrev-commit --all
+```
+
 Then use it with:
 
 ```bash
@@ -137,6 +155,15 @@ $ git config --global alias.hist "log --pretty=format:'%C(yellow)%h%Creset %Cgre
 ```
 
 **There is no output in return.**
+
+Verify it's set up correctly:
+
+```bash
+$ git config --global alias.hist
+
+# you should see:
+# log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
+```
 
 And then use:
 
