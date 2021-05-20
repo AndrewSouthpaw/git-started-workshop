@@ -61,39 +61,39 @@ Then next command you should run depending on which shell you run.
 
 **If your terminal prompt starts with a %**
 
-It might look something [like this](https://i.stack.imgur.com/bUR9P.png).
-
-Then run this command in your shell:
-
-```bash
-% echo 'export EDITOR="code -w"' >> ~/.zsh_profile
-```
-
-Then open a NEW shell and check that it's been set correctly:
-
-```bash
-% echo $EDITOR
-
-should print out: code -w
-```
+> It might look something [like this](https://i.stack.imgur.com/bUR9P.png).
+> 
+> Run this command in your shell:
+> 
+> ```bash
+> % echo 'export EDITOR="code -w"' >> ~/.zsh_profile
+> ```
+> 
+> Then open a NEW shell and check that it's been set correctly:
+> 
+> ```bash
+> % echo $EDITOR
+> 
+> should print out: code -w
+> ```
 
 **If your terminal prompt starts with a $**
 
-It might look something [like this](https://miro.medium.com/max/1960/0*jdx5-Ww6NH3ozn0Z.png).
-
-Then run this command in your shell:
-
-```bash
-echo 'export EDITOR="code -w"' >> ~/.bash_profile
-```
-
-Then open a NEW shell and check that it's been set correctly:
-
-```bash
-$ echo $EDITOR
-
-should print out: code -w
-```
+> It might look something [like this](https://miro.medium.com/max/1960/0*jdx5-Ww6NH3ozn0Z.png).
+> 
+> Run this command in your shell:
+> 
+> ```bash
+> echo 'export EDITOR="code -w"' >> ~/.bash_profile
+> ```
+> 
+> Then open a NEW shell and check that it's been set correctly:
+> 
+> ```bash
+> $ echo $EDITOR
+> 
+> should print out: code -w
+> ```
 
 ### Tools for generating commits
 
