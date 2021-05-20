@@ -30,7 +30,9 @@
 
 - [ ] Go through the same cycle of staging and committing the changes.
 
-## Edit and commit multiple files
+## Challenges
+
+### Edit and commit multiple files
 
 Remember you can refer to all files with `.` in place of a filename. So this command:
 
@@ -43,7 +45,7 @@ means "target all files from this directory and subdirectories". For git, it mea
 - [ ] In VS Code, make some edits to three different files.
 - [ ] Check you have these files with changes that are unstaged. Go through the git commit cycle, using the command above rather than adding each file individually.
 
-## Delete a file
+### Delete a file
 
 Deleting a file is just like any other "change" in the eyes of git. It's a file deletion change, but it's a change nonetheless, and one that starts off **unstaged** and then you have to stage it for the commit.
 
@@ -60,7 +62,7 @@ Deleting a file is just like any other "change" in the eyes of git. It's a file 
   > 
   > </details>
 
-## Delete a file (faster version)
+### Delete a file (faster version)
 
 - [ ] Use `git rm test4.txt` to both *delete* and *stage the change* in a single command. Then commit the change.
 
