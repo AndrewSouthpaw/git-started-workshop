@@ -17,5 +17,9 @@ $ git push origin
 ## Pull the latest changes
 
 ```bash
-$ git pull origin --rebase
+$ git pull origin
 ```
+
+## Demo of pushing changes
+
+![](https://i.imgur.com/Vuq4fV8.gif)
