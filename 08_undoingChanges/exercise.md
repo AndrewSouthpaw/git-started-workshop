@@ -1,6 +1,6 @@
 # Exercise
 
-Undoing changes in your "working directory"
+## Undoing changes in your "working directory"
 
 - [ ] Make changes to several tracked files in git, and then clear the changes
 - [ ] Make a bunch of new files
@@ -11,11 +11,31 @@ Undoing changes in your "working directory"
 - [ ] Unstage your changes
 - [ ] Wipe away the changes
 
-Undoing commits
+## Undoing commits
 
 - [ ] Create some changes and commit them. Rollback the commit but don't discard the changes.
+
+  > <details><summary>Click for demo</summary>
+  > 
+  > https://imgur.com/TBxeYu7
+  > 
+  > </details>
+
 - [ ] Commit these changes again with a different commit message.
 - [ ] Rollback the commit again and discard the changes this time.
 - [ ] Mourn the loss of those changes. Think carefully about using the previous command, because it's hard to get them back (though [not impossible](https://www.atlassian.com/git/tutorials/rewriting-history/git-reflog)!)
+
+  > <details><summary>Click for demo</summary>
+  > 
+  > https://i.imgur.com/cFpoYTO
+  > 
+  > </details>
+
 - [ ] Make some new changes and create a commit.
 - [ ] Make a *new* commit that undoes the changes in a previous commit.
+
+  > <details><summary>Click for demo</summary>
+  > 
+  > https://imgur.com/sh2NwXE
+  > 
+  > </details>

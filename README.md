@@ -6,6 +6,7 @@ A workshop learning the basics of git.
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
+- [Welcome! 👋 Read me first!](#welcome--read-me-first)
 - [Day Retros](#day-retros)
 - [Course Evaluation](#course-evaluation)
 - [Slides](#slides)
@@ -19,6 +20,16 @@ A workshop learning the basics of git.
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 A workshop to learn the beginner and intermediate features of git.
+
+## Welcome! 👋 Read me first!
+
+Hi there friend! 
+
+Presumably you're here because you're taking Andrew's git course.
+
+You don't need to do anything right away. We will walk through getting started together. 🤝
+
+If you want to get a head start on installation, check out [module 1](./01_installation/README.md).
 
 ## Day Retros
 

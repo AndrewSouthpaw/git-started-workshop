@@ -12,12 +12,6 @@ $ git init
 $ git status
 ```
 
-## Check what changes are pending
-
-```bash
-$ git diff
-```
-
 ## Committing new files
 
 ```bash
