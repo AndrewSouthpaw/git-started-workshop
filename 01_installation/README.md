@@ -17,6 +17,10 @@
 
 You're going to install a bunch of things!
 
+# Create GitHub account
+
+If you haven't already, [create a GitHub account](http://github.com/).
+
 # Install Visual Studio Code
 
 Download it [here](https://code.visualstudio.com/).
@@ -33,9 +37,13 @@ Install git, and then configure it. You need git version **2.23.0** or greater.
 
 ## MacOS
 
-**You're probably already done!** 🎉 Macs are shipped with git already installed. You can verify by opening the Terminal app (Applications > Utilities > Terminal), type `git --version` at the command prompt, and verify the version is greater than 2.23.0.
+**You might be already done!** 🎉 Macs are shipped with git already installed. You can verify by opening the Terminal app (Applications > Utilities > Terminal), type `git --version` at the command prompt, and verify the version is greater than 2.23.0.
 
 ![](https://i.imgur.com/OMV7reD.png)
+
+You might be prompted to "install command line tools". There's a [simple demo here of installing](https://cdn.osxdaily.com/wp-content/uploads/2014/02/confirm-install-command-line-tools-mac-os-x.jpg). If that's the case, go ahead and install them, then close and re-open the Terminal. Choose [Install]. **DO NOT** install Xcode.
+
+![](https://cdn.osxdaily.com/wp-content/uploads/2014/02/confirm-install-command-line-tools-mac-os-x.jpg)
 
 If you want bonus points and download the latest version of git, follow these instructions.
 
@@ -44,7 +52,7 @@ Install git via `Homebrew`, a super-cool utility that helps manage tools for you
 [Install brew](https://brew.sh/) by pasting this code into your Terminal app:
 
 ```
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 Then, install git:
@@ -102,6 +110,16 @@ $ git config --global user.name "Your Name"
 $ git config --global user.email "your@email.com"
 ```
 
+You can then confirm they're configured like this:
+
+```
+$ git config --global user.name
+Andrew Smith
+
+$ git config --global user.email
+andrewsmith@alumni.stanford.edu
+```
+
 # Add useful git aliases
 
 Follow instructions to add the following aliases:
@@ -112,3 +130,5 @@ Follow instructions to add the following aliases:
 # Install Fork
 
 We will work with [Fork](https://git-fork.com/), the best git GUI app on the market. There are other free options, but they're not as good and less effective for learning purposes.
+
+It will ask if you want to connect to any accounts. You can connect to your GitHub account if you want, or not, it's just a convenience thing to display your GitHub repositories.

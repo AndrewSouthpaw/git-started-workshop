@@ -66,7 +66,7 @@ Then next command you should run depending on which shell you run.
 > Run this command in your shell:
 > 
 > ```bash
-> % echo 'export EDITOR="code -w"' >> ~/.zsh_profile
+> % echo 'export EDITOR="code -w"' >> ~/.zshrc
 > ```
 > 
 > Then open a NEW shell and check that it's been set correctly:
