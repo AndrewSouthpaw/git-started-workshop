@@ -27,3 +27,8 @@
 - [ ] Push your changes again
 - [ ] Look again at your history to see how both `master` and `origin/master` point to the same commit now
 - [ ] Pull the latest just to make sure nothing has changed
+
+  > <details><summary>Click for demo</summary>
+  > 
+  > ![](https://media.giphy.com/media/ANocEchpIQe40aQ7VK/source.gif)
+  > </details>
