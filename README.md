@@ -33,7 +33,7 @@ If you want to get a head start on installation, check out [module 1](./01_insta
 
 ## Day Retros
 
-TBD
+- [2021-05-21](https://forms.gle/CZ3LyWgeJ8wSA13K9)
 
 ## Course Evaluation
 
@@ -47,131 +47,7 @@ View/download [here](https://drive.google.com/file/d/1Tfogzs9FqPhGePpTiP6XU1wCWD
 
 We'll sometimes use [Git School - Visualizing Git](http://git-school.github.io/visualizing-git/) as a tool for visualizing git operations.
 
-## Setup
-
-### Set VS Code as default editor
-
-VIM will usually pop open during various git commands and it can get confusing.
-
-Instead you can use [Visual Studio Code](https://code.visualstudio.com/) as the default editor.
-
-Inside VS Code, open the Command Palette (CMD + Shift + P or Ctrl + Shift + P) and search for "Shell Command: Install 'code' command in PATH", follow that step.
-
-Then next command you should run depending on which shell you run.
-
-**If your terminal prompt starts with a %**
-
-> It might look something [like this](https://i.stack.imgur.com/bUR9P.png).
-> 
-> Run this command in your shell:
-> 
-> ```bash
-> % echo 'export EDITOR="code -w"' >> ~/.zshrc
-> ```
-> 
-> Then open a NEW shell and check that it's been set correctly:
-> 
-> ```bash
-> % echo $EDITOR
-> 
-> should print out: code -w
-> ```
-
-**If your terminal prompt starts with a $**
-
-> It might look something [like this](https://miro.medium.com/max/1960/0*jdx5-Ww6NH3ozn0Z.png).
-> 
-> Run this command in your shell:
-> 
-> ```bash
-> echo 'export EDITOR="code -w"' >> ~/.bash_profile
-> ```
-> 
-> Then open a NEW shell and check that it's been set correctly:
-> 
-> ```bash
-> $ echo $EDITOR
-> 
-> should print out: code -w
-> ```
-
-### Tools for generating commits
-
-Eventually you'll want to be able to quickly generate commits. When that time comes, these tools can be handy.
-
-Just copy each line individually and paste them into your shell.
-
-```
-$ git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f'
-```
-
-**There is no output in return.**
-
-Verify it's set up correctly:
-
-```bash
-$ git config --global alias.commitrand
-
-# you should see:
-# !f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f
-```
-
-Sample usage:
-
-```bash
-$ git commitrand 3  # creates a file 3.txt and creates a commit
-                    # with commit message "Add 3.txt."
-```
-
-### Better git history
-
-This will display a clean, visually friendly git log, showing all the branches. Copy and paste this command into your shell.
-
-```bash
-$ git config --global alias.l 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
-```
-
-**There is no output in return.**
-
-Verify it's set up correctly:
-
-```bash
-$ git config --global alias.l
-
-# you should see:
-# log --graph --decorate --pretty=oneline --abbrev-commit --all
-```
-
-Then use it with:
-
-```bash
-$ git l
-```
-
-And this is an expanded form, showing dates and author name. Copy and paste...
-
-```bash
-$ git config --global alias.hist "log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate"
-```
-
-**There is no output in return.**
-
-Verify it's set up correctly:
-
-```bash
-$ git config --global alias.hist
-
-# you should see:
-# log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
-```
-
-And then use:
-
-```bash
-$ git hist
-```
-
-### Better bash prompt
+## Better bash prompt
 
 Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt, so make a copy of it):
 
