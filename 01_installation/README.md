@@ -31,13 +31,15 @@ Install git, and then configure it. You need git version **2.23.0** or greater.
 
 **NB:** Remember: the `$` means "the stuff after this goes into the command prompt." Do not include the $ in the command.
 
-## MacOS
+Click below for instructions of your OS:
+
+<details><summary>MacOS</summary>
 
 **You might be already done!** 🎉 Macs are shipped with git already installed. You can verify by opening the Terminal app (Applications > Utilities > Terminal), type `git --version` at the command prompt, and verify the version is greater than 2.23.0.
 
 ![](https://i.imgur.com/OMV7reD.png)
 
-You might be prompted to "install command line tools". 
+You might be prompted to "install command line tools".
 
 ![](https://cdn.osxdaily.com/wp-content/uploads/2014/02/confirm-install-command-line-tools-mac-os-x.jpg)
 
@@ -65,7 +67,9 @@ If you already installed git with homebrew and want to update it, run:
 $ brew upgrade git
 ```
 
-## Windows
+</details>
+
+<details><summary>Windows</summary>
 
 Depending on your Windows OS, you may already have access to Bash. If you have an app like "Git BASH", or have the Windows Subsystem for Linux (WSL), you probably don't need to follow these instructions.
 
@@ -79,15 +83,19 @@ Once you have one of the above, you should have an app called "Git BASH". It'll 
 
 ![](https://i.stack.imgur.com/ik8KY.png)
 
-Go to your Bash command line and verify your install by typing `$ git --version`. 
+Go to your Bash command line and verify your install by typing `git --version`.
 
-## Linux
+</details>
+
+<details><summary>Linux</summary>
 
 Run
 
 ```
 $ apt-get install git
 ```
+
+</details>
 
 # Verify Git Installation
 
