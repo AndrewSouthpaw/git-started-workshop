@@ -2,108 +2,27 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Install Visual Studio Code](#install-visual-studio-code)
-- [Set Visual Studio Code as default bash editor](#set-visual-studio-code-as-default-bash-editor)
-- [Install Git](#install-git)
-  - [MacOS](#macos)
-  - [Windows](#windows)
-  - [Linux](#linux)
-- [Verify Git Installation](#verify-git-installation)
+- [Install git](#install-git)
+- [Create GitHub account](#create-github-account)
 - [Configure Git](#configure-git)
-- [Add useful git aliases](#add-useful-git-aliases)
 - [Install Fork](#install-fork)
+- [Install Visual Studio Code](#install-visual-studio-code)
+- [Set VS Code as default editor](#set-vs-code-as-default-editor)
+- [Git alias for generating commits](#git-alias-for-generating-commits)
+- [Git alias for better git history](#git-alias-for-better-git-history)
+- [Git alias for more detailed git history](#git-alias-for-more-detailed-git-history)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 You're going to install a bunch of things!
 
+# Install git
+
+Follow [these instructions](./installGit.md) if you haven't already to install git.
+
 # Create GitHub account
 
-If you haven't already, [create a GitHub account](http://github.com/).
-
-# Install Visual Studio Code
-
-Download it [here](https://code.visualstudio.com/).
-
-# Install Git
-
-Install git, and then configure it. You need git version **2.23.0** or greater.
-
-**NB:** Remember: the `$` means "the stuff after this goes into the command prompt." Do not include the $ in the command.
-
-Click below for instructions of your OS:
-
-<details><summary>MacOS</summary>
-
-**You might be already done!** 🎉 Macs are shipped with git already installed. You can verify by opening the Terminal app (Applications > Utilities > Terminal), type `git --version` at the command prompt, and verify the version is greater than 2.23.0.
-
-![](https://i.imgur.com/OMV7reD.png)
-
-You might be prompted to "install command line tools".
-
-![](https://cdn.osxdaily.com/wp-content/uploads/2014/02/confirm-install-command-line-tools-mac-os-x.jpg)
-
-If that's the case, go ahead and install them, then close and re-open the Terminal. Choose [Install], it might take a while. **DO NOT** install Xcode. There's a [simple demo here of installing here](https://cdn.osxdaily.com/wp-content/uploads/2014/02/confirm-install-command-line-tools-mac-os-x.jpg).
-
-If you want bonus points and download the latest version of git, follow these instructions.
-
-Install git via `Homebrew`, a super-cool utility that helps manage tools for your laptop.
-
-[Install brew](https://brew.sh/) by pasting this code into your Terminal app:
-
-```
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-Then, install git:
-
-```
-$ brew install git
-```
-
-If you already installed git with homebrew and want to update it, run:
-
-```
-$ brew upgrade git
-```
-
-</details>
-
-<details><summary>Windows</summary>
-
-Depending on your Windows OS, you may already have access to Bash. If you have an app like "Git BASH", or have the Windows Subsystem for Linux (WSL), you probably don't need to follow these instructions.
-
-If you use Chocolatey (and you probably don't), follow [instructions here](https://chocolatey.org/packages/git).
-
-If you don't, install the [GitHub Desktop client](https://desktop.github.com/) which also installs a command-line version of Git.
-
-In case that doesn't work, try the [Git for Windows](https://git-scm.com/download/win) project.
-
-Once you have one of the above, you should have an app called "Git BASH". It'll look something like this:
-
-![](https://i.stack.imgur.com/ik8KY.png)
-
-Go to your Bash command line and verify your install by typing `git --version`.
-
-</details>
-
-<details><summary>Linux</summary>
-
-Run
-
-```
-$ apt-get install git
-```
-
-</details>
-
-# Verify Git Installation
-
-Verify git version > 2.23.0 is installed by typing this command:
-
-```
-$ git --version
-```
+If you haven't already, [create a GitHub account](http://github.com/) on the public site.
 
 # Configure Git
 
@@ -133,6 +52,10 @@ This is a **local configuration**. It does not create a GitHub account for you. 
 We will work with [Fork](https://git-fork.com/), the best git GUI app on the market. There are other free options, but they're not as good and less effective for learning purposes.
 
 It will ask if you want to connect to any accounts. You can connect to your GitHub account if you want, or not, it's just a convenience thing to display your GitHub repositories.
+
+# Install Visual Studio Code
+
+Download it [here](https://code.visualstudio.com/).
 
 # Set VS Code as default editor
 

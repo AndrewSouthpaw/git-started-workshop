@@ -27,13 +27,11 @@ Hi there friend!
 
 Presumably you're here because you're taking Andrew's git course.
 
-You don't need to do anything right away. We will walk through getting started together. 🤝
+Most of the config will be done during the class. We will walk through getting started together. 🤝
 
-If you want to get a head start on installation, check out [module 1](./01_installation/README.md).
+However, git can take a long time to install. [Follow these instructions](./01_installation/installGit.md) to install git. If you get stuck, we can troubleshoot it during the first day of class.
 
 ## Day Retros
-
-- [2021-05-21](https://forms.gle/CZ3LyWgeJ8wSA13K9)
 
 ## Course Evaluation
 
@@ -47,7 +45,7 @@ View/download [here](https://drive.google.com/file/d/1Tfogzs9FqPhGePpTiP6XU1wCWD
 
 We'll sometimes use [Git School - Visualizing Git](http://git-school.github.io/visualizing-git/) as a tool for visualizing git operations.
 
-## Better bash prompt
+## Better bash prompt [OPTIONAL]
 
 Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt, so make a copy of it):
 
