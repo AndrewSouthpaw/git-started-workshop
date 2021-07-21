@@ -4,6 +4,7 @@
 
 - [Install Git](#install-git)
 - [Verify Git Installation](#verify-git-installation)
+- [Let me know you installed it](#let-me-know-you-installed-it)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -86,3 +87,7 @@ Verify git version > 2.23.0 is installed by typing this command:
 ```
 $ git --version
 ```
+
+# Let me know you installed it
+
+Fill out [this form](https://forms.gle/s4DC8cHLtqHhEWRs8) to confirm you have completed the pre-work.
