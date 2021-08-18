@@ -6,6 +6,13 @@ Remember, you can use `git commitrand ...` alias from the `README.md` to generat
 - [ ] Add a few commits to the branch
 - [ ] Merge the branch into `master`
 - [ ] Delete `feature-1`
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s5.gifyu.com/images/demoead6710a9c041b67.gif)
+
+</details>
+
 - [ ] Create another branch, `feature-2`
 - [ ] Add a few commits to the branch
 - [ ] Create another branch off this current one, `feature-2a`
@@ -14,3 +21,9 @@ Remember, you can use `git commitrand ...` alias from the `README.md` to generat
 - [ ] Delete `feature-2a`
 - [ ] Merge `feature-2` into `master`
 - [ ] Delete `feature-2`
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s5.gifyu.com/images/demo4249509ab5f16d9f.gif)
+
+</details>

@@ -4,6 +4,13 @@
 - [ ] Add a few commits to `master`
 - [ ] Merge `feature-1` into `master`, creating a merge commit
 - [ ] Delete `feature-1`
+
+<details><summary>Click here for demo</summary>
+
+![](https://s5.gifyu.com/images/demo1b66699b192afebe.md.gif)
+
+</details>
+
 - [ ] Create a `feature-2` branch and add a few commits
 - [ ] Cut a new branch `feature-2a` off `feature-2` and add more commits
 - [ ] Go back to `feature-2` and add a few commits
@@ -14,6 +21,12 @@
 - [ ] Undo the merge
 - [ ] Take a look at the log
 - [ ] Redo the merge and delete `feature-2`
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s5.gifyu.com/images/demo46e6eca1b644c84a.md.gif)
+
+</details>
 
 **BEAST MODE**
 
@@ -37,3 +50,9 @@ Simulate that time moves on and more work is done on `master` and `feature-1`
 And now it's time to release your feature to the team!
 
 - [ ] Merge `feature-1` into `master` and delete `feature-1`
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s5.gifyu.com/images/demoad539c55307d0f49.md.gif)
+
+</details>

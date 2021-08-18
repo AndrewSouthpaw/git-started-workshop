@@ -7,6 +7,12 @@
 - [ ] Go to the latest commit.
 - [ ] Search for commit messages that contained a particular phrase
 
+<details><summary>Click here for a demo</summary>
+
+![](https://s5.gifyu.com/images/demo618d852721daaa18.gif)
+
+</details>
+
 **CHALLENGE MODE**
 
 - [ ] When you navigate into the past, what is that state called?
