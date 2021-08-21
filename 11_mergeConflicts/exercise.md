@@ -9,3 +9,9 @@
 - [ ] In `master`, delete or rename that file
 - [ ] Try to merge in the branch
 - [ ] Decide what to do about the file and complete merge
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s9.gifyu.com/images/demo1d38087ceca233eb.gif)
+
+</details>

@@ -5,14 +5,37 @@
 - [ ] Rebase the feature branch onto `master`
 - [ ] Merge the feature branch and delete it
 
+<details><summary>Click here for a demo</summary>
+
+![](https://s9.gifyu.com/images/demo1a6ba7f1cc931c7d.gif)
+
+</details>
+
+Undo your rebase
+
+- [ ] Create a similar setup from above
+- [ ] When you complete the rebase, use `git reset --hard ORIG_HEAD` to "undo" the rebase
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s9.gifyu.com/images/demo60908638c516313e.gif)
+
+</details>
+
 Dealing with merge conflicts
 
-- [ ] Create a feature branch, add a few commits (e.g. add a `a.txt`, then a `b.txt`, and so on)
-- [ ] Add some more commits to `master` that would conflict (make an `a.txt` with conflicting changes, and then a `d.txt` with conflicting changes)
-- [ ] Go back to feature branch and create a `temp` branch in case something goes awry, you won't lose your place
+- [ ] Start off with a file, `conflict.txt`, where you'll make conflicting changes across two branches.
+- [ ] Create a feature branch, add a few commits like new files, plus some changes to `conflict.txt`
+- [ ] Add some more commits to `master` like new files, plus some *different changes on the same line* of `conflict.txt`
 - [ ] Rebase feature branch onto `master`
 - [ ] Deal with merge conflicts
 - [ ] Celebrate your git prowess
+
+<details><summary>Click here for a demo</summary>
+
+![](https://s9.gifyu.com/images/demo3962f8f03c61e637.md.gif)
+
+</details>
 
 **BEAST MODE**
 
@@ -47,7 +70,3 @@ Ending goal:
 - [ ] Where are the commits that `feature-1` was based on? Why did that happen?
 - [ ] If you were to merge `feature-1` in without a merge commit, what would it look like?
 - [ ] Try it out and see what's same/different about what you observed vs. expected
-
-**FINAL BOSS MODE**
-
-- [ ] Play through [this game on git branching](https://learngitbranching.js.org/) to truly test your mettle in git-fu.
