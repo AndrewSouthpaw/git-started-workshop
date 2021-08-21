@@ -30,5 +30,5 @@
 
   > <details><summary>Click for demo</summary>
   > 
-  > ![](https://media.giphy.com/media/ANocEchpIQe40aQ7VK/source.gif)
+  > ![](https://s9.gifyu.com/images/demo158f120523fe2168.md.gif)
   > </details>
