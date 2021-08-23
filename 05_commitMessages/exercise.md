@@ -40,13 +40,13 @@ Link to meeting notes: www.foo.com/foo-meeting-notes
 
 ## Amend the previous commit message
 
-- [ ] Oops! The term isn't "foobar", it's really "foo". Rewrite the contents of "placeholders.txt" to include the line `foobar is a common placeholder name used in computer science`
+- [ ] Oops! The term isn't "foobar", it's really "foo". Rewrite the contents of "placeholders.txt" to include the line `foo is a common placeholder name used in computer science`
 - [ ] *Amend* the previous commit, and rewrite the commit message and description:
 
 ```
-Add explanation of the term foobar.
+Add explanation of the term foo.
 
-The term "foobar" can be confusing to someone unfamiliar with computer science.
+The term "foo" can be confusing to someone unfamiliar with computer science.
 After much discussion, we decided to add its meaning to a new file.
 Link to meeting notes: www.foo.com/foo-meeting-notes
 ```
