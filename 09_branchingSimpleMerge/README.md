@@ -12,6 +12,12 @@ Create a new branch
 $ git branch <name>
 ```
 
+Create and checkout a new branch
+
+```
+$ git checkout -b <name>
+```
+
 Merge a branch into the current one
 
 ```bash
