@@ -22,17 +22,17 @@
 
   > <details><summary>Click for a demo</summary>
   > 
-  > ![](https://s9.gifyu.com/images/demo4ff8bbbd70868838.gif)
+  > https://s9.gifyu.com/images/demo4ff8bbbd70868838.gif
   > 
   > </details>
 
 - [ ] Do the same thing as above, this time using `git pull` to bring changes from remote to your local.
 
-<details><summary>Click here for a demo</summary>
-
-![](https://s9.gifyu.com/images/demodf735b4d5e9b29ba.gif)
-
-</details>
+> <details><summary>Click here for a demo</summary>
+>
+> https://s9.gifyu.com/images/demodf735b4d5e9b29ba.gif
+>
+> </details>
 
 ## Combine local and remote changes
 
@@ -46,7 +46,7 @@
 
   > <details><summary>Click here for a demo</summary>
   > 
-  > ![](https://s9.gifyu.com/images/demodf9e2234cbe0c481.gif)
+  > https://s9.gifyu.com/images/demodf9e2234cbe0c481.gif
   > 
   > </details>
 
@@ -62,7 +62,7 @@
 
   > <details><summary>Click here for a demo</summary>
   > 
-  > ![](https://s9.gifyu.com/images/demo18a1b26a3c1f51ad.gif)
+  > https://s9.gifyu.com/images/demo18a1b26a3c1f51ad.gif
   > 
   > </details>
 
@@ -70,6 +70,6 @@
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s9.gifyu.com/images/demoac06a1a0cd9cdb29.gif)
+https://s9.gifyu.com/images/demoac06a1a0cd9cdb29.gif
 
 </details>

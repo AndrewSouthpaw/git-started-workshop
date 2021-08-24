@@ -12,6 +12,6 @@
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s9.gifyu.com/images/demo1d38087ceca233eb.gif)
+https://s9.gifyu.com/images/demo1d38087ceca233eb.gif
 
 </details>

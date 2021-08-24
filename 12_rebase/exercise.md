@@ -7,7 +7,7 @@
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s9.gifyu.com/images/demo1a6ba7f1cc931c7d.gif)
+https://s9.gifyu.com/images/demo1a6ba7f1cc931c7d.gif
 
 </details>
 
@@ -18,7 +18,7 @@ Undo your rebase
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s9.gifyu.com/images/demo60908638c516313e.gif)
+https://s9.gifyu.com/images/demo60908638c516313e.gif
 
 </details>
 
@@ -33,7 +33,7 @@ Dealing with merge conflicts
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s9.gifyu.com/images/demo3962f8f03c61e637.md.gif)
+https://s9.gifyu.com/images/demo3962f8f03c61e637.md.gif
 
 </details>
 
