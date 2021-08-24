@@ -30,5 +30,5 @@
 
   > <details><summary>Click for demo</summary>
   > 
-  > https://s9.gifyu.com/images/demo158f120523fe2168.md.gif
+  > https://s9.gifyu.com/images/demo158f120523fe2168.gif
   > </details>

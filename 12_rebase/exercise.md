@@ -33,7 +33,7 @@ Dealing with merge conflicts
 
 <details><summary>Click here for a demo</summary>
 
-https://s9.gifyu.com/images/demo3962f8f03c61e637.md.gif
+https://s9.gifyu.com/images/demo3962f8f03c61e637.gif
 
 </details>
 
