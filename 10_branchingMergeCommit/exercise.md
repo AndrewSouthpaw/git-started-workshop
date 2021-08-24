@@ -7,7 +7,7 @@
 
 <details><summary>Click here for demo</summary>
 
-![](https://s5.gifyu.com/images/demo1b66699b192afebe.md.gif)
+https://s5.gifyu.com/images/demo1b66699b192afebe.md.gif
 
 </details>
 
@@ -24,7 +24,7 @@
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s5.gifyu.com/images/demo46e6eca1b644c84a.md.gif)
+https://s5.gifyu.com/images/demo46e6eca1b644c84a.md.gif
 
 </details>
 
@@ -53,6 +53,6 @@ And now it's time to release your feature to the team!
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s5.gifyu.com/images/demoad539c55307d0f49.md.gif)
+https://s5.gifyu.com/images/demoad539c55307d0f49.md.gif
 
 </details>

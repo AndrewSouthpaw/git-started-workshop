@@ -9,7 +9,7 @@ Remember, you can use `git commitrand ...` alias from the `README.md` to generat
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s5.gifyu.com/images/demoead6710a9c041b67.gif)
+https://s5.gifyu.com/images/demoead6710a9c041b67.gif
 
 </details>
 
@@ -24,6 +24,6 @@ Remember, you can use `git commitrand ...` alias from the `README.md` to generat
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s5.gifyu.com/images/demo4249509ab5f16d9f.gif)
+https://s5.gifyu.com/images/demo4249509ab5f16d9f.gif
 
 </details>

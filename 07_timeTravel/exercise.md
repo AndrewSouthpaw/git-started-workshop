@@ -9,7 +9,7 @@
 
 <details><summary>Click here for a demo</summary>
 
-![](https://s5.gifyu.com/images/demo618d852721daaa18.gif)
+https://s5.gifyu.com/images/demo618d852721daaa18.gif
 
 </details>
 
