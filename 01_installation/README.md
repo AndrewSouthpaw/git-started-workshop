@@ -63,49 +63,19 @@ You can use [Visual Studio Code](https://code.visualstudio.com/) as the default 
 
 Inside VS Code, open the Command Palette (CMD + Shift + P or Ctrl + Shift + P) and search for "Shell Command: Install 'code' command in PATH", follow that step. **If you're on Windows, this is done for you automatically.**
 
-Then next command you should run depending on which shell you run.
+Then, in your shell, run this command:
 
-**If your terminal prompt starts with a %**
+```bash
+$ git config --global core.editor "code -w"
+```
 
-<details><summary>Click here</summary>
+Confirm it was set correctly by running this command:
 
-> It might look something [like this](https://i.stack.imgur.com/bUR9P.png).
->
-> Run this command in your shell:
->
-> ```bash
-> % echo 'export EDITOR="code -w"' >> ~/.zshrc
-> ```
->
-> Then open a NEW shell and check that it's been set correctly:
->
-> ```bash
-> % echo $EDITOR
-> 
-> should print out: code -w
-> ```
-</details>
-
-**If your terminal prompt starts with a $**
-
-<details><summary>Click here</summary>
-
-> It might look something [like this](https://miro.medium.com/max/1960/0*jdx5-Ww6NH3ozn0Z.png).
->
-> Run this command in your shell:
->
-> ```bash
-> echo 'export EDITOR="code -w"' >> ~/.bash_profile
-> ```
->
-> Then open a NEW shell and check that it's been set correctly:
->
-> ```bash
-> $ echo $EDITOR
-> 
-> should print out: code -w
-> ```
-</details>
+```bash
+$ git config --global core.editor
+# you should see:
+#   code -w
+```
 
 # Git alias for generating commits
 
@@ -128,11 +98,18 @@ $ git config --global alias.commitrand
 # !f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f
 ```
 
-Sample usage:
+Example usage (**this won't work until you've initialized a git repo**)
 
 ```bash
 $ git commitrand 3  # creates a file 3.txt and creates a commit
                     # with commit message "Add 3.txt."
+```
+
+If you get this message, it's because you're not in a git repo, and we'll talk about that shortly:
+
+```
+$ git commitrand 3
+fatal: not a git repository (or any of the parent directories): .git
 ```
 
 # Git alias for better git history
@@ -154,10 +131,17 @@ $ git config --global alias.l
 # log --graph --decorate --pretty=oneline --abbrev-commit --all
 ```
 
-Then use it with:
+Example usage (**this won't work until you've initialized a git repo**)
 
 ```bash
 $ git l
+```
+
+If you get this message, it's because you're not in a git repo, and we'll talk about that shortly:
+
+```
+$ git commitrand 3
+fatal: not a git repository (or any of the parent directories): .git
 ```
 
 # Git alias for more detailed git history
@@ -179,8 +163,15 @@ $ git config --global alias.hist
 # log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
 ```
 
-And then use:
+Example usage (**this won't work until you've initialized a git repo**)
 
 ```bash
 $ git hist
+```
+
+If you get this message, it's because you're not in a git repo, and we'll talk about that shortly:
+
+```
+$ git commitrand 3
+fatal: not a git repository (or any of the parent directories): .git
 ```
