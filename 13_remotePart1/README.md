@@ -8,6 +8,15 @@ $ git clone <url>
 $ git clone <url> <name> # provide the name you want the folder to be called
 ```
 
+## List remotes
+
+```
+$ git remote -v
+
+$ git remote add <name> <url> # adds a new remote
+```
+
+
 ## Push changes to origin
 
 ```bash
