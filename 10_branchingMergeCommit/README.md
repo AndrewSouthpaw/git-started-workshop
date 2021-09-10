@@ -11,3 +11,9 @@ Undo a merge
 ```bash
 $ git reset --hard ORIG_HEAD
 ```
+
+Go to second parent of a merge commit
+
+```bash
+$ git checkout HEAD^2
+```

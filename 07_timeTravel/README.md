@@ -8,17 +8,14 @@ $ git show <commit SHA>
 
 ## View timeline
 
-If you installed the alias:
+```bash
+$ git log --graph --oneline --all
+```
+
+If you [installed the alias](../01_installation/README.md#git-alias-for-better-git-history), it's the same as this:
 
 ```bash
 $ git l
-```
-
-```bash
-$ git log
-$ git log --graph
-$ git log --graph --oneline
-$ git log --graph --oneline --all
 ```
 
 ## Time traveling
@@ -48,5 +45,8 @@ $ git checkout HEAD~3
 
 ```bash
 # Search by commit message/description
-$ git log --grep='search term'
+$ git log --graph --oneline --all --grep='search term'
+
+# or, if you have the alias:
+$ git l --grep='search term'
 ```

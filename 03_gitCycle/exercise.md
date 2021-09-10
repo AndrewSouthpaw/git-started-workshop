@@ -2,13 +2,19 @@
 
 - [ ] Open up Fork. Go to [File] > [Create New Local Repository...]. Create a [New Folder] in a directory where you want and call it "git-playground".
 
+<details><summary>Click here for a demo</summary>
+
 ![](https://i.imgur.com/s3c2XWJ.jpg)
 
 ![](https://i.imgur.com/7Okv8zZ.gif)
+</details>
 
 - [ ] Open up VS Code and Fork side by side. You'll want to keep them both open and see how changes are reflected.
 
+<details><summary>Click here for a demo</summary>
+
 <img src="https://i.imgur.com/dUSvF0Y.png" width="500">
+</details>
 
 ## Practice the git cycle
 
@@ -16,7 +22,10 @@
 
 - [ ] Go to Fork. Click [Local Changes] in the top left corner. 
 
+<details><summary>Click here for a demo</summary>
+
 ![](https://i.imgur.com/MMh994Z.jpg)
+</details>
 
 - [ ] Click the file under "Unstaged" and click [Stage]. See how the file is now **staged**.
 
@@ -26,8 +35,10 @@
 
 The whole process should look something like this.
 
+<details><summary>Click here for a demo</summary>
 
 ![](https://i.imgur.com/sKwxJyz.gif)
+</details>
 
 ## Understanding unstaged changes
 

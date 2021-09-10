@@ -32,12 +32,12 @@ Reverting a commit (does not change history)
 $ git revert <commit to undo>
 ```
 
-Resetting a commit (changes history)
+Move HEAD / branch to a new place (re-SET)
 
 ```bash
-# Rollback the previous commit but keep the changes
-$ git reset <commit to roll back to>
+# Keep changes in commits in working tree
+$ git reset <commit to move to>
 
-# Rollback the previous commit and discard the changes
-$ git reset --hard <commit to roll back to>
+# Ignore changes in commits
+$ git reset --hard <commit to move to>
 ```

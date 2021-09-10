@@ -16,17 +16,22 @@ $ git remote -v
 $ git remote add <name> <url> # adds a new remote
 ```
 
-
 ## Push changes to origin
 
 ```bash
-$ git push origin
+$ git push <remote> <branch>
+```
+
+Pushing a new local branch for the first time:
+
+```bash
+$ git push -u origin <branch>
 ```
 
 ## Pull the latest changes
 
 ```bash
-$ git pull origin
+$ git pull <remote> <branch>
 ```
 
 ## Demo of pushing changes

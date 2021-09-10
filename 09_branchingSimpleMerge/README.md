@@ -32,3 +32,9 @@ Delete a branch
 ```bash
 $ git branch -d <branch>
 ```
+
+Delete an unmerged branch
+
+```bash
+$ git branch -D <branch>
+```
