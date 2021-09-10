@@ -1,18 +1,21 @@
 # Git Cycle
 
-Each file goes through this cycle.
+## Create new repository in Fork
 
-```
-     Unmodified ----> Modified ----> Staged
-      ^                                  |
-      |                                  |
-      --------------- Commit ------------                                  
-```
+Go to Fork menu bar, [File] > [Create new repository...]
 
-**Unmodified** is it's "resting state". There are no changes for the file since the last commit.
+## Open VS Code in project
 
-**Modified** means there are changes to the file that haven't been committed.
+Go to VS Code menu bar, [File] > [Open] > highlight project folder > [Open]
 
-**Staged** means there are changes to the file that will be added to the next commit that is created.
+## Git cycle
 
-**Commit** is the action of creating a new commit. It will take any staged changes and make them part of a new commit. If you staged all the changes for a file and commit, that file would now be *unmodified*.
+Modify -> stage -> commit
+
+## Deleting files
+
+Delete -> stage -> commit
+
+## Renaming files
+
+Rename -> stage -> commit
