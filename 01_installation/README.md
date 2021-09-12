@@ -162,6 +162,21 @@ $ git commitrand 3
 fatal: not a git repository (or any of the parent directories): .git
 ```
 
+# Git alias for continuous log output
+
+This will continuously print your git log:
+
+```bash
+$ git config --global alias.ll "!f() { while :; do clear; git --no-pager log --all --decorate --oneline -20 --graph; sleep 1; done }; f"
+```
+
+This alias is a little brittle, and you need to be displaying **at least 20 lines** on your terminal window. The alternative is to install `watch`:
+
+```bash
+$ brew install watch
+$ watch --color git l --color
+```
+
 # Git alias for more detailed git history
 
 And this is an expanded form, showing dates and author name. Copy and paste...
