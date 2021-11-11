@@ -42,32 +42,9 @@ Password: your_token
 
 More reading [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
-# Configure Git
-
-You'll need to tell git who you are, so it can attribute commits to you as the author. **Generally you use your real name and email associated with GitHub**, though you can actually put whatever you want.
-
-Paste these two lines into your bash shell, substituting the values as appropriate.
-
-```bash
-$ git config --global user.name "Your Name"
-$ git config --global user.email "your@email.com"
-```
-
-You can then confirm they're configured like this:
-
-```
-$ git config --global user.name
-Andrew Smith
-
-$ git config --global user.email
-andrewsmith@alumni.stanford.edu
-```
-
-This is a **local configuration**. It does not create a GitHub account for you. It is only used by git to identify who is creating commits, and adding author information about it.
-
 # Install Fork
 
-We will work with [Fork](https://git-fork.com/), the best git GUI app on the market. There are other free options, but they're not as good and less effective for learning purposes.
+We will work with [Fork](https://git-fork.com/) at the beginning of class, the best git GUI app on the market. There are other free options, but they're not as good and less effective for learning purposes.
 
 It will ask if you want to connect to any accounts. You can connect to your GitHub account if you want, or not, it's just a convenience thing to display your GitHub repositories.
 
@@ -81,40 +58,25 @@ You can use [Visual Studio Code](https://code.visualstudio.com/) as the default 
 
 Inside VS Code, open the Command Palette (CMD + Shift + P or Ctrl + Shift + P) and search for "Shell Command: Install 'code' command in PATH", follow that step. **If you're on Windows, this is done for you automatically.**
 
-Then, in your shell, run this command:
+Open a new terminal window and make sure it's installed:
 
 ```bash
-$ git config --global core.editor "code -w"
+$ which code
+# you should see something like:
+#    /usr/local/bin/code
 ```
 
-Confirm it was set correctly by running this command:
+# Configure Git
+
+Run this install script, where you type in your name and email into the quote marks, like this:
 
 ```bash
-$ git config --global core.editor
-# you should see:
-#   code -w
+$ ./01_installation/install.sh "Your Name" "your@email.com"
 ```
 
 # Git alias for generating commits
 
 Eventually you'll want to be able to quickly generate commits. When that time comes, these tools can be handy.
-
-Just copy each line individually and paste them into your shell.
-
-```
-$ git config --global alias.commitrand '!f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f'
-```
-
-**There is no output in return.**
-
-Verify it's set up correctly:
-
-```bash
-$ git config --global alias.commitrand
-
-# you should see:
-# !f() { echo asdf$1 > $1.txt && git add . && git commit -m "Add $1.txt."; }; f
-```
 
 Example usage (**this won't work until you've initialized a git repo**)
 
@@ -134,21 +96,6 @@ fatal: not a git repository (or any of the parent directories): .git
 
 This will display a clean, visually friendly git log, showing all the branches. Copy and paste this command into your shell.
 
-```bash
-$ git config --global alias.l 'log --graph --decorate --pretty=oneline --abbrev-commit --all'
-```
-
-**There is no output in return.**
-
-Verify it's set up correctly:
-
-```bash
-$ git config --global alias.l
-
-# you should see:
-# log --graph --decorate --pretty=oneline --abbrev-commit --all
-```
-
 Example usage (**this won't work until you've initialized a git repo**)
 
 ```bash
@@ -166,9 +113,7 @@ fatal: not a git repository (or any of the parent directories): .git
 
 This will continuously print your git log:
 
-```bash
-$ git config --global alias.ll "!f() { while :; do clear; git --no-pager log --all --decorate --oneline -20 --graph; sleep 1; done }; f"
-```
+<details><summary>Click here if you have `brew` installed and want a less brittle version:</summary>
 
 This alias is a little brittle, and you need to be displaying **at least 20 lines** on your terminal window. The alternative is to install `watch`:
 
@@ -177,24 +122,11 @@ $ brew install watch
 $ watch --color git l --color
 ```
 
+</details>
+
 # Git alias for more detailed git history
 
-And this is an expanded form, showing dates and author name. Copy and paste...
-
-```bash
-$ git config --global alias.hist "log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate"
-```
-
-**There is no output in return.**
-
-Verify it's set up correctly:
-
-```bash
-$ git config --global alias.hist
-
-# you should see:
-# log --pretty=format:'%C(yellow)%h%Creset %Cgreen%ad%Creset | %s%C(magenta)%d%Creset [%Cblue%an%Creset]' --graph --date=short --decorate
-```
+This is an expanded form of the git history, showing dates and author name.
 
 Example usage (**this won't work until you've initialized a git repo**)
 
