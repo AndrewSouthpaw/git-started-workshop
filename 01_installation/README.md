@@ -71,7 +71,8 @@ $ which code
 Run this install script, where you type in your name and email into the quote marks, like this:
 
 ```bash
-$ ./01_installation/install.sh "Your Name" "your@email.com"
+$ curl -O https://raw.githubusercontent.com/AndrewSouthpaw/git-started-workshop/master/01_installation/install.sh && chmod +x ./install.sh
+$ ./install.sh "Your Name" "your@email.com"
 ```
 
 # Git alias for generating commits
