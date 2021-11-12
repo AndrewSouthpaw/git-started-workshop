@@ -1,6 +1,6 @@
 # Exercise
 
-- [ ] Fork the [github-workshop-demo](https://github.com/AndrewSouthpaw/github-demo-project) repository
+- [ ] Fork the [demo](https://github.com/AndrewSouthpaw/git-demo-2021-11-12) repository
 - [ ] Clone your fork
 - [ ] Add the original repo as a remote and call it `upstream`
 - [ ] Create a new branch `feature-1` and add a few commits
