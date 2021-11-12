@@ -1,5 +1,15 @@
 # Remote Repository
 
+## Create a new repo
+
+Go to GitHub, click on [+] and choose [New repository]
+
+![](https://i.imgur.com/xwhq0M5.jpg)
+
+Give it a name and initialize it with a README:
+
+![](https://i.imgur.com/FbVsP9S.jpg)
+
 ## Clone a repo
 
 ```bash
@@ -7,6 +17,10 @@ $ git clone <url>
 
 $ git clone <url> <name> # provide the name you want the folder to be called
 ```
+
+You get the URL from GitHub, after you create the new repository:
+
+![](https://i.imgur.com/4xQxtsh.jpg)
 
 ## List remotes
 
