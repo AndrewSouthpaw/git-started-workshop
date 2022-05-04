@@ -10,8 +10,7 @@ A workshop learning the basics of git.
 - [Day Retros](#day-retros)
 - [Course Evaluation](#course-evaluation)
 - [Slides](#slides)
-- [Git Visualization](#git-visualization)
-- [Better bash prompt [OPTIONAL]](#better-bash-prompt-optional)
+- [Resources](#resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -37,21 +36,6 @@ TBD
 
 View/download [here](https://drive.google.com/file/d/130ETjTBmFhPlZxWFiw7qv-GD5Y48vics/view?usp=sharing).
 
-## Git Visualization
+## Resources
 
-We'll sometimes use [Git School - Visualizing Git](http://git-school.github.io/visualizing-git/) as a tool for visualizing git operations.
-
-## Better bash prompt [OPTIONAL]
-
-Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt, so make a copy of it):
-
-```bash
-$ cd ~
-$ mv .bash_prompt .bash_prompt.bak # do this if you have a current bash_prompt you want to
-                                   # save; typically you don't need to if you're new to bash
-$ git clone https://github.com/AndrewSouthpaw/git-started-workshop.git
-$ cd git-started-workshop
-$ cp .bash_prompt ~
-```
-
-Open up a new bash shell and voilá. This is adapted from a [particularly famous dotfile](https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt), tweaked so you don't need to download other customizations upon which the original dotfile depends.
+There's an [ongoing list of git resources](./resources.md) you can refer to later.

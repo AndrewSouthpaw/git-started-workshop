@@ -86,3 +86,24 @@ $ ./install.sh "Your Name" "your@email.com"
 ```
 
 This will configure git and install some aliases we will use later in the class.
+
+## Better bash prompt [OPTIONAL]
+
+> 🛑 These instructions are only relevant for bash users, i.e. those where it shows `$` as the prompt in your terminal.
+
+<details><summary>Click here if you use bash and want a better bash prompt</summary>
+
+Download `.bash_prompt` and move it to your `~` directory (these directions will clobber your old bash prompt, so make a copy of it):
+
+```bash
+$ cd ~
+$ mv .bash_prompt .bash_prompt.bak # do this if you have a current bash_prompt you want to
+                                   # save; typically you don't need to if you're new to bash
+$ git clone https://github.com/AndrewSouthpaw/git-started-workshop.git
+$ cd git-started-workshop
+$ cp .bash_prompt ~
+```
+
+Open up a new bash shell and voilá. This is adapted from a [particularly famous dotfile](https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt), tweaked so you don't need to download other customizations upon which the original dotfile depends.
+
+</details>
