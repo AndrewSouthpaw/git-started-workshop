@@ -1,3 +1,5 @@
+Welcome to the pre-requisites of the class! **You should install git in advance of the class to make sure you can run it**.
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
@@ -50,17 +52,24 @@ If you already installed git with homebrew and want to update it, run:
 $ brew upgrade git
 ```
 
+Once that's done, open a new shell and check the git version:
+
+```bash
+# in a new shell!
+$ git --version
+```
+
 </details>
 
 <details><summary>Windows</summary>
 
 Depending on your Windows OS, you may already have access to Bash. If you have an app like "Git BASH", or have the Windows Subsystem for Linux (WSL), you probably don't need to follow these instructions.
 
-If you use Chocolatey (and you probably don't), follow [instructions here](https://chocolatey.org/packages/git).
+Install with the [Git for Windows](https://git-scm.com/download/win) project.
 
 If you don't, install the [GitHub Desktop client](https://desktop.github.com/) which also installs a command-line version of Git.
 
-In case that doesn't work, try the [Git for Windows](https://git-scm.com/download/win) project.
+If you use Chocolatey (and you probably don't), follow [instructions here](https://chocolatey.org/packages/git).
 
 Once you have one of the above, you should have an app called "Git BASH". It'll look something like this:
 
