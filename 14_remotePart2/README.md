@@ -6,17 +6,17 @@ Update your branch references from a remote
 $ git fetch <remote>
 ```
 
-Branches inside remote are listed as `<remote>/<branch>` e.g. `origin/master`.
+Branches inside remote are listed as `<remote>/<branch>` e.g. `origin/main`.
 
 When you pull, you're actually doing a `git fetch` and `git merge`, so:
 
 ```bash
-$ git pull origin master
+$ git pull origin main
 
 # is the same thing as 
 
 $ git fetch origin
-$ git merge origin/master
+$ git merge origin/main
 ```
 
 When you add `--rebase` it turns the `git merge` into a `git rebase`.

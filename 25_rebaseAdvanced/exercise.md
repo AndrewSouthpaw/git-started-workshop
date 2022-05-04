@@ -9,4 +9,4 @@
 - [ ] Delete the branch
 - [ ] Create a `feature1` branch and add a few commits
 - [ ] Create a `feature2` branch off there and add a few commits
-- [ ] Rebase the new `feature2` commits onto master, so it's no longer using `feature1` commits
+- [ ] Rebase the new `feature2` commits onto main, so it's no longer using `feature1` commits

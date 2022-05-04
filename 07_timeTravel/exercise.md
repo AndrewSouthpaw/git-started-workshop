@@ -16,4 +16,4 @@ https://s5.gifyu.com/images/demo618d852721daaa18.gif
 **CHALLENGE MODE**
 
 - [ ] When you navigate into the past, what is that state called?
-- [ ] If you navigate to the current `master` commit by using the SHA, e.g. `git checkout abc1234`, and then you make a commit there, what happens? Why?
+- [ ] If you navigate to the current `main` commit by using the SHA, e.g. `git checkout abc1234`, and then you make a commit there, what happens? Why?

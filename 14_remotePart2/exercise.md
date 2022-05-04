@@ -6,7 +6,7 @@
 - [ ] Make some new commits in `clone1`
 - [ ] Push your changes to `origin`
 - [ ] Go back to `clone2`
-- [ ] Update your ref to `master` in `origin` but don't pull changes. Which command is that?
+- [ ] Update your ref to `main` in `origin` but don't pull changes. Which command is that?
 
   > <details><summary>Click here for the answer</summary>
   > 
@@ -16,8 +16,8 @@
   > 
   > </details>
 
-- [ ] Look at your history (`$ git l`) and see how `master` and `origin/master` differ, but this time `origin/master` is ahead. You have some changes to pull!
-- [ ] Use `git merge` to merge `origin/master` into your `master`.
+- [ ] Look at your history (`$ git l`) and see how `main` and `origin/main` differ, but this time `origin/main` is ahead. You have some changes to pull!
+- [ ] Use `git merge` to merge `origin/main` into your `main`.
 - [ ] This operation is the same as `git pull`.
 
   > <details><summary>Click for a demo</summary>

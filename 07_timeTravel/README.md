@@ -47,8 +47,8 @@ $ git checkout <commit SHA>
 
 # e.g. 
 
-# get back to the latest on master
-$ git checkout master
+# get back to the latest on main
+$ git checkout main
 
 # move to the previous commit
 $ git checkout HEAD^

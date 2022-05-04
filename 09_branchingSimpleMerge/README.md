@@ -23,8 +23,8 @@ Merge a branch into the current one
 ```bash
 $ git merge <branch>
 
-# e.g. if you were on branch `master`
-$ git merge feature1  # merges feature1 INTO master
+# e.g. if you were on branch `main`
+$ git merge feature1  # merges feature1 INTO main
 ```
 
 Delete a branch

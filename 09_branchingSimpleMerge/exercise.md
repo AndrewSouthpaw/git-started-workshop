@@ -4,7 +4,7 @@ Remember, you can use `git commitrand ...` alias from the `README.md` to generat
 
 - [ ] Create a new branch, `feature-1`
 - [ ] Add a few commits to the branch
-- [ ] Merge the branch into `master`
+- [ ] Merge the branch into `main`
 - [ ] Delete `feature-1`
 
 <details><summary>Click here for a demo</summary>
@@ -19,7 +19,7 @@ https://s5.gifyu.com/images/demoead6710a9c041b67.gif
 - [ ] Add a few more commits there
 - [ ] Merge `feature-2a` into `feature-2` 
 - [ ] Delete `feature-2a`
-- [ ] Merge `feature-2` into `master`
+- [ ] Merge `feature-2` into `main`
 - [ ] Delete `feature-2`
 
 <details><summary>Click here for a demo</summary>

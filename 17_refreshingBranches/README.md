@@ -3,7 +3,7 @@
 First, do
 
 ```bash
-$ git checkout master
+$ git checkout main
 $ git pull --rebase
 ```
 
@@ -11,10 +11,10 @@ Then, you can merge or rebase.
 
 ```bash
 $ git checkout feature
-$ git merge master
+$ git merge main
 
 # or...
 
 $ git checkout feature
-$ git rebase master
+$ git rebase main
 ```

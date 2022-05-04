@@ -1,8 +1,8 @@
 # Exercise
 
 - [ ] Create a feature branch, add a few commits
-- [ ] Add some more commits to `master`
-- [ ] Rebase the feature branch onto `master`
+- [ ] Add some more commits to `main`
+- [ ] Rebase the feature branch onto `main`
 - [ ] Merge the feature branch and delete it
 
 <details><summary>Click here for a demo</summary>
@@ -26,8 +26,8 @@ Dealing with merge conflicts
 
 - [ ] Start off with a file, `conflict.txt`, where you'll make conflicting changes across two branches.
 - [ ] Create a feature branch, add a few commits like new files, plus some changes to `conflict.txt`
-- [ ] Add some more commits to `master` like new files, plus some *different changes on the same line* of `conflict.txt`
-- [ ] Rebase feature branch onto `master`
+- [ ] Add some more commits to `main` like new files, plus some *different changes on the same line* of `conflict.txt`
+- [ ] Rebase feature branch onto `main`
 - [ ] Deal with merge conflicts
 - [ ] Celebrate your git prowess
 
@@ -43,7 +43,7 @@ https://s9.gifyu.com/images/demo3962f8f03c61e637.gif
 
 ![](https://user-images.githubusercontent.com/5187404/53471626-28d32e00-3a1a-11e9-9bc1-bf4462735ab1.png)
 
-Here's the situation: the work you've done in `feature-1` needs to be released to `master` ASAP, but `feature-1a` isn't quite ready to be released yet. Current development on `feature-1` is good enough to be merged in. However, the team breaks out into hives when they see a merge commit. What do you do?
+Here's the situation: the work you've done in `feature-1` needs to be released to `main` ASAP, but `feature-1a` isn't quite ready to be released yet. Current development on `feature-1` is good enough to be merged in. However, the team breaks out into hives when they see a merge commit. What do you do?
 
 End result should look something like this:
 
@@ -61,7 +61,7 @@ Ending goal:
 
 ![](https://user-images.githubusercontent.com/5187404/53473179-85384c80-3a1e-11e9-9d5e-644f25a831b4.png)
 
-- [ ] Merge in `feature-2` to master without a merge commit.
+- [ ] Merge in `feature-2` to main without a merge commit.
 
 Ending goal:
 
