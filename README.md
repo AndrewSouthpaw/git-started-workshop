@@ -11,11 +11,7 @@ A workshop learning the basics of git.
 - [Course Evaluation](#course-evaluation)
 - [Slides](#slides)
 - [Git Visualization](#git-visualization)
-- [Setup](#setup)
-  - [Set VS Code as default editor](#set-vs-code-as-default-editor)
-  - [Tools for generating commits](#tools-for-generating-commits)
-  - [Better git history](#better-git-history)
-  - [Better bash prompt](#better-bash-prompt)
+- [Better bash prompt [OPTIONAL]](#better-bash-prompt-optional)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
