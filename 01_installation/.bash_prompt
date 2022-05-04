@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# **OPTIONAL** This is only relevant for bash users!
+#
 # Tweaked from https://github.com/necolas/dotfiles/blob/master/shell/bash_prompt, mostly to make it work
 # when you don't have Solarized theme. If you want to get Solarized theme, then use the original.
 

@@ -100,7 +100,7 @@ $ cd ~
 $ mv .bash_prompt .bash_prompt.bak # do this if you have a current bash_prompt you want to
                                    # save; typically you don't need to if you're new to bash
 $ git clone https://github.com/AndrewSouthpaw/git-started-workshop.git
-$ cd git-started-workshop
+$ cd git-started-workshop/01_installation
 $ cp .bash_prompt ~
 ```
 
