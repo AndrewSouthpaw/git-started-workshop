@@ -39,7 +39,7 @@ TBD
 
 ## Slides
 
-View/download [here](https://drive.google.com/file/d/1Tfogzs9FqPhGePpTiP6XU1wCWDmvDe9Q/view?usp=sharing).
+View/download [here](https://drive.google.com/file/d/130ETjTBmFhPlZxWFiw7qv-GD5Y48vics/view?usp=sharing).
 
 ## Git Visualization
 

@@ -18,6 +18,28 @@ If you [installed the alias](../01_installation/README.md#git-alias-for-better-g
 $ git l
 ```
 
+## Exiting parser in terminal
+
+When the printout is long enough to fill up more than your terminal window for commands like `git log`, `git diff`, etc., it'll enter into a parser program called `less`.
+
+You can tell it's in LESS because of the `:` at the bottom of your display:
+
+![](https://i.imgur.com/2lQNY06.png)
+
+You can navigate and exit in LESS:
+
+```
+j = down
+k = up
+d = page down
+u = page up
+q = exit
+```
+
+Here's a demo:
+
+![](https://i.imgur.com/aELbduS.gif)
+
 ## Time traveling
 
 ```bash
