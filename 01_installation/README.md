@@ -3,11 +3,12 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Install git](#install-git)
-- [Create GitHub account and token](#create-github-account-and-token)
 - [Install Visual Studio Code](#install-visual-studio-code)
 - [Install Fork](#install-fork)
 - [Set VS Code as default editor](#set-vs-code-as-default-editor)
 - [Configure Git](#configure-git)
+- [Create GitHub account and token](#create-github-account-and-token)
+- [Better bash prompt [OPTIONAL]](#better-bash-prompt-optional)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -16,28 +17,6 @@ You're going to install a bunch of things!
 # Install git
 
 Follow [these instructions](./installGit.md) if you haven't already to install git.
-
-# Create GitHub account and token
-
-If you haven't already, [create a GitHub account](http://github.com/) on the public site.
-
-Go to https://github.com/settings/tokens and create a new Personal Access Token (PAT). Enable `repo`, `workflow`, and `gist` scopes.
-
-![](https://i.imgur.com/rRiOsc5.jpg)
-
-Copy the token and save it for later.
-
-![](https://i.imgur.com/OufPcd2.jpg)
-
-Eventually, at some point with git you'll be prompted to enter your GitHub username and password. Just paste in the PAT for your password:
-
-```
-$ git [some operation that prompts your password]
-Username: your_username
-Password: your_token
-```
-
-More reading [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
 
 # Install Visual Studio Code
 
@@ -87,7 +66,29 @@ $ ./install.sh "Your Name" "your@email.com"
 
 This will configure git and install some aliases we will use later in the class.
 
-## Better bash prompt [OPTIONAL]
+# Create GitHub account and token
+
+If you haven't already, [create a GitHub account](http://github.com/) on the public site.
+
+Go to https://github.com/settings/tokens and create a new Personal Access Token (PAT). Enable `repo`, `workflow`, and `gist` scopes.
+
+![](https://i.imgur.com/rRiOsc5.jpg)
+
+Copy the token and save it for later.
+
+![](https://i.imgur.com/OufPcd2.jpg)
+
+Eventually, at some point with git you'll be prompted to enter your GitHub username and password. Just paste in the PAT for your password:
+
+```
+$ git [some operation that prompts your password]
+Username: your_username
+Password: your_token
+```
+
+More reading [here](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
+# Better bash prompt [OPTIONAL]
 
 > 🛑 These instructions are only relevant for bash users, i.e. those where it shows `$` as the prompt in your terminal.
 
