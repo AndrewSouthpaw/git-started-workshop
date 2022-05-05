@@ -22,3 +22,9 @@ https://lab.github.com/githubtraining/ramp-up-on-git-and-github
 
 Tips for good code reviews
 https://mtlynch.io/code-review-love
+
+Purging sensitive data
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository
+
+Cherry-picking vs merging (VERY technical)
+https://devblogs.microsoft.com/oldnewthing/20180312-00/?p=98215
