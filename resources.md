@@ -19,3 +19,6 @@ http://justinhileman.info/article/git-pretty/git-pretty.png
 
 Git / GitHub exercises
 https://lab.github.com/githubtraining/ramp-up-on-git-and-github
+
+Tips for good code reviews
+https://mtlynch.io/code-review-love
