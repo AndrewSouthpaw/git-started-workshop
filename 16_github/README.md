@@ -33,3 +33,25 @@
 **Rebase and merge**
 
 ![](https://i.imgur.com/5eyb29x.png)
+
+## Cleaning up
+
+**Deleting the branch in the remote**
+
+![](https://i.imgur.com/usoY6aU.png)
+
+Or:
+
+```bash
+# note the colon (:) in front of the branch name!
+$ git push origin :my-feature
+```
+
+**Deleting the local branch and remote ref**
+
+```bash
+$ git checkout main
+$ git pull
+$ git branch -D my-feature
+$ git fetch --prune
+```
